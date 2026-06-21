@@ -69,19 +69,7 @@ Key glossary terms available:
 `burning`, `dehydration`, `falling`, `malnutrition`, `suffocation`
 
 **Step 2 — Chapter topic?**
-
-| Question type | Read this file |
-|---|---|
-| Ability scores, modifiers, what each ability measures | `playing-the-game/the-six-abilities.md` |
-| Skills list (which ability each uses), proficiency bonus, saving throw profs | `playing-the-game/proficiency.md` |
-| D20 Tests, ability checks, saving throws, DC, Advantage/Disadvantage | `playing-the-game/d20-tests.md` |
-| Damage rolls, critical hits, resistance, immunity, healing, death saves, temp HP | `playing-the-game/damage-and-healing.md` |
-| Actions, Bonus Actions, Reactions, "One Thing at a Time" | `playing-the-game/actions.md` |
-| Initiative, movement, attacks, opportunity attacks, cover, mounted combat, underwater | `playing-the-game/combat.md` |
-| Light, vision, obscurement, hiding, travel pace, hazards, interacting with objects | `playing-the-game/exploration.md` |
-| NPC attitudes, social checks, Insight, Persuasion, Deception in play | `playing-the-game/social-interaction.md` |
-| Condition duration, stacking rules | `playing-the-game/conditions.md` |
-| Dice notation, d3, percentile dice | `playing-the-game/dice.md` |
+Read `$DM_SKILLS_DIR/reference/srd/playing-the-game/INDEX.md` for a one-line topic summary per file.
 
 All paths resolve from: `$DM_SKILLS_DIR/reference/srd/<path>`
 
