@@ -9,7 +9,7 @@
     {
       "name": "dnd",
       "source": "./plugins/dnd",
-      "description": "Core D&D 5e skills backed by SRD 5.2.1 content — query spells, magic items, and monster stat blocks; answer rules questions and character creation questions from the SRD"
+      "description": "Core D&D 5e skills backed by SRD 5.2.1 content — monsters, spells, magic items, rules, character creation, equipment stats, and DM toolbox (traps, poisons, curses)"
     },
     {
       "name": "eberron",

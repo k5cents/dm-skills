@@ -162,10 +162,12 @@ The SRD legality audit is complete. Findings:
 29 XPHB srd52 entries (21 EI + 8 MM); includes prerequisite text in output.
 Used by the `dnd-characters` skill.
 
+**Weapon mastery properties** (8) rendered to `reference/srd/equipment/mastery/` by
+`render-itemmastery.mjs`. All XPHB srd52. Used by the `dnd-gear` skill.
+
 **Still unrendered SRD52 content** (lower priority — not yet needed by any skill):
-- `trapshazards.json` [trap] — 8 SRD traps from XDMG (Collapsing Roof, Hidden Pit, etc.)
-  `gameplay-toolbox/traps.md` already lists names; individual files would add mechanics.
-- `items-base.json` [itemMastery] — 8 weapon mastery properties (all srd52)
+- `trapshazards.json` [trap] — 8 SRD traps from XDMG; `gameplay-toolbox/traps.md`
+  contains their full stat blocks already (used by dnd-dm-tools)
 - `conditionsdiseases.json` [disease] — 3 XDMG diseases (Cackle Fever, Sewer Plague, Sight Rot)
 - `languages.json` [language] — 19 srd52 languages
 
@@ -174,7 +176,7 @@ Used by the `dnd-characters` skill.
 ## Plugin structure
 
 `.claude-plugin/marketplace.json` defines two plugin groups:
-- `dnd` — dnd-monsters, dnd-spells, dnd-items, dnd-rules, dnd-characters (SRD skills)
+- `dnd` — dnd-monsters, dnd-spells, dnd-items, dnd-rules, dnd-characters, dnd-gear, dnd-dm-tools (SRD skills)
 - `eberron` — eberron-lore (requires sourcebook export via `export-book.mjs`)
 
 Skills live in `skills/` (plugin-canonical location). There is no `.claude/` directory
