@@ -43,9 +43,31 @@ COLUMNS = [
     "type", "type_code", "rarity", "tier",
     "attunement", "attunement_req", "wondrous", "weight", "value_gp",
     "has_spells", "entries_json", "srd",
+    # Weapon columns (null for non-weapons)
+    "dmg1", "dmg2", "dmg_type", "properties", "mastery",
+    "range_normal", "range_long", "weapon_category",
+    # Armor columns (null for non-armor)
+    "ac_base", "str_req", "stealth_disadv",
 ]
-INT_COLS   = {"page", "attunement", "wondrous", "has_spells", "srd"}
+INT_COLS   = {"page", "attunement", "wondrous", "has_spells", "srd",
+              "range_normal", "range_long", "ac_base", "str_req", "stealth_disadv"}
 FLOAT_COLS = {"weight", "value_gp"}
+
+# ── Weapon property code → display name ───────────────────────────────────────
+PROPERTY_NAMES = {
+    "A":   "Ammunition",
+    "AF":  "Ammunition (Firearm)",
+    "F":   "Finesse",
+    "H":   "Heavy",
+    "L":   "Light",
+    "LD":  "Loading",
+    "R":   "Reach",
+    "RLD": "Reload",
+    "T":   "Thrown",
+    "V":   "Versatile",
+    "2H":  "Two-Handed",
+    "BF":  "Burst Fire",
+}
 
 # ── Item type code → human-readable name ─────────────────────────────────────
 # Strip source suffixes (e.g. "$A|XDMG" → "$A") before lookup.
@@ -141,6 +163,47 @@ def build_row(item: dict, srd: int = 0) -> tuple | None:
     # Store raw entries JSON — 5etools tags preserved intact for rendering.
     entries_json = json.dumps(item.get("entries", []))
 
+    # ── Weapon fields ──────────────────────────────────────────────────────────
+    dmg1 = item.get("dmg1")
+    dmg2 = item.get("dmg2")
+    dmg_type = item.get("dmgType")  # "B", "P", or "S"
+
+    # Properties: ["F|XPHB", "L|XPHB"] → "Finesse|Light"
+    raw_props = item.get("property") or []
+    prop_names = []
+    for p in raw_props:
+        code = p.split("|")[0] if isinstance(p, str) else None
+        if code and code in PROPERTY_NAMES:
+            prop_names.append(PROPERTY_NAMES[code])
+    properties = "|".join(prop_names) if prop_names else None
+
+    # Mastery: ["Topple|XPHB"] → "Topple" (skip dict entries from non-SRD sources)
+    raw_mastery = item.get("mastery") or []
+    mastery = None
+    for m in raw_mastery:
+        if isinstance(m, str):
+            mastery = m.split("|")[0]
+            break
+
+    # Range: "20/60" → range_normal=20, range_long=60
+    range_normal = range_long = None
+    raw_range = item.get("range")
+    if raw_range and isinstance(raw_range, str) and "/" in raw_range:
+        parts = raw_range.split("/")
+        try:
+            range_normal, range_long = int(parts[0]), int(parts[1])
+        except (ValueError, IndexError):
+            pass
+
+    weapon_category = item.get("weaponCategory")  # "simple" or "martial"
+    if weapon_category:
+        weapon_category = weapon_category.capitalize()
+
+    # ── Armor fields ───────────────────────────────────────────────────────────
+    ac_base = item.get("ac") if isinstance(item.get("ac"), int) else None
+    str_req = item.get("strength")
+    stealth_disadv = int(bool(item.get("stealth"))) if item.get("stealth") is not None else None
+
     return (
         name, slugify(name), source, page,
         type_name, type_code,
@@ -150,6 +213,9 @@ def build_row(item: dict, srd: int = 0) -> tuple | None:
         has_spells,
         entries_json,
         srd,
+        dmg1, dmg2, dmg_type, properties, mastery,
+        range_normal, range_long, weapon_category,
+        ac_base, str_req, stealth_disadv,
     )
 
 # ── CSV helpers ────────────────────────────────────────────────────────────────
@@ -293,10 +359,22 @@ def main():
             value_gp       REAL,
             has_spells     INTEGER NOT NULL,
             entries_json   TEXT,
-            srd            INTEGER NOT NULL DEFAULT 0
+            srd            INTEGER NOT NULL DEFAULT 0,
+            dmg1           TEXT,
+            dmg2           TEXT,
+            dmg_type       TEXT,
+            properties     TEXT,
+            mastery        TEXT,
+            range_normal   INTEGER,
+            range_long     INTEGER,
+            weapon_category TEXT,
+            ac_base        INTEGER,
+            str_req        INTEGER,
+            stealth_disadv INTEGER
         )
     """)
-    con.executemany("INSERT INTO items VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", all_rows)
+    placeholders = ",".join("?" * len(COLUMNS))
+    con.executemany(f"INSERT INTO items VALUES ({placeholders})", all_rows)
     con.execute("CREATE INDEX idx_items_name   ON items(name)")
     con.execute("CREATE INDEX idx_items_source ON items(source)")
     con.execute("CREATE INDEX idx_items_rarity ON items(rarity)")

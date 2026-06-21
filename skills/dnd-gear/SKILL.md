@@ -1,21 +1,21 @@
 ---
 name: dnd-gear
 description: >
-  Look up mundane equipment stats using SRD reference files — weapons, armor, tools,
-  ammunition, and spellcasting focuses. Use this skill when a DM needs weapon damage
-  dice or properties for an NPC, armor AC and cost for a shop or encounter, weapon
-  mastery property mechanics during combat, or tool proficiency descriptions. Invoke
-  for: "what damage does a longsword do", "how much does plate armor cost", "what's
-  the AC of chain mail", "which weapons have the Thrown property", "what does Topple
-  mastery do", "what tools does a Thieves' Kit include", equipping NPCs or populating
-  a shop inventory. Not for magic item properties (dnd-items), class weapon
-  proficiencies (dnd-characters), or weapon attack rules (dnd-rules).
+  Look up mundane equipment stats using the items database and SRD reference files —
+  weapons, armor, tools, ammunition, and spellcasting focuses. Use this skill when a
+  DM needs weapon damage dice or properties for an NPC, armor AC and cost for a shop
+  or encounter, weapon mastery property mechanics during combat, or tool proficiency
+  descriptions. Invoke for: "what damage does a longsword do", "how much does plate
+  armor cost", "what's the AC of chain mail", "which weapons have the Thrown property",
+  "what does Topple mastery do", "what tools does a Thieves' Kit include", equipping
+  NPCs or populating a shop inventory. Not for magic item properties (dnd-items),
+  class weapon proficiencies (dnd-characters), or weapon attack rules (dnd-rules).
 ---
 
 # Equipment Reference
 
-Always read the relevant SRD file — the tables are small and a single read answers
-most questions. Don't guess damage dice or costs from training data.
+Query `$DM_SKILLS_DIR/databases/items.db` for stats, then read the relevant
+`equipment/` file for context or mastery property mechanics.
 
 ## Setup
 
@@ -25,64 +25,80 @@ from the "Base directory for this skill" path shown at the top of context:
 export DM_SKILLS_DIR=$(cd "<base-dir-from-above>/../../../.." && pwd)
 ```
 
-## Content Map
+```sh
+python3 $DM_SKILLS_DIR/scripts/query.py items.db "SELECT ..."
+```
 
-All paths resolve from `$DM_SKILLS_DIR/reference/srd/equipment/`
+## Schema (key columns)
 
-### Weapons
-`weapons.md` — two tables (Simple and Martial), each with:
-Name | Cost | Damage | Weight | Properties | Mastery
+```
+name, slug, source, type, type_code, value_gp, weight, srd,
+-- Weapons (null for non-weapons):
+dmg1, dmg2, dmg_type,       -- e.g. "1d8", "1d10", "S"
+properties,                  -- pipe-separated: "Finesse|Light|Thrown"
+mastery,                     -- e.g. "Nick"
+range_normal, range_long,    -- feet, e.g. 20, 60
+weapon_category,             -- "Simple" or "Martial"
+-- Armor (null for non-armor):
+ac_base, str_req, stealth_disadv
+```
 
-Read this for any weapon stat lookup or "which weapons have property X" question.
-The whole file is ~50 lines — read it in full rather than guessing.
+`dmg_type` values: `B` (Bludgeoning), `P` (Piercing), `S` (Slashing)
 
-### Armor
-`armor.md` — four sections (Light, Medium, Heavy, Shields), each with:
-Name | Cost | AC | Strength requirement | Stealth penalty | Weight
+Filter to SRD-only base equipment: `srd = 1 AND rarity = 'none'`
 
-### Tools
-`tools.md` — artisan tools, gaming sets, musical instruments, and other tool kits
-with cost and weight. Includes descriptions of tool proficiency uses where available.
+## Common Queries
 
-### Ammunition
-`ammunition.md` — arrows, bolts, sling bullets, blowgun needles (cost and quantity).
+**Specific weapon lookup:**
+```sql
+SELECT name, dmg1, dmg2, dmg_type, properties, mastery, range_normal, range_long, value_gp, weight
+FROM items WHERE name = 'Longsword' AND srd = 1;
+```
 
-### Spellcasting Focuses
-`spellcasting-focuses.md` — arcane, druidic, and holy focuses with costs.
+**All Thrown weapons (SRD):**
+```sql
+SELECT name, dmg1, dmg_type, range_normal, range_long, mastery, value_gp
+FROM items WHERE properties LIKE '%Thrown%' AND srd = 1 AND rarity = 'none'
+ORDER BY weapon_category, name;
+```
 
-### Weapon Mastery Properties
-`mastery/<property>.md` — individual files for each of the 8 mastery properties:
+**Martial weapons with Reach:**
+```sql
+SELECT name, dmg1, dmg_type, mastery, value_gp
+FROM items WHERE weapon_category = 'Martial' AND properties LIKE '%Reach%'
+  AND srd = 1 AND rarity = 'none'
+ORDER BY name;
+```
 
-| Property | Effect summary |
-|---|---|
-| `cleave` | Extra attack against adjacent creature on hit (no ability mod to damage) |
-| `graze` | Miss still deals ability-modifier damage of the weapon's type |
-| `nick` | Light property's extra attack is part of Attack action, not Bonus Action |
-| `push` | Push target up to 10 feet on hit (Large or smaller) |
-| `sap` | Target has Disadvantage on its next attack roll on hit |
-| `slow` | Reduce target Speed by 10 feet until your next turn on hit |
-| `topple` | Target makes Con save (DC 8 + attack ability mod + PB) or falls Prone |
-| `vex` | You have Advantage on your next attack roll against the target |
+**All armor, cheapest first:**
+```sql
+SELECT name, type, ac_base, str_req, stealth_disadv, value_gp
+FROM items WHERE type_code IN ('LA','MA','HA','S') AND srd = 1 AND rarity = 'none'
+ORDER BY value_gp;
+```
 
-For the full text of a mastery property, read `mastery/<property>.md`.
+**Medium armor without stealth penalty:**
+```sql
+SELECT name, ac_base, value_gp, weight
+FROM items WHERE type_code = 'MA' AND srd = 1 AND rarity = 'none'
+  AND (stealth_disadv IS NULL OR stealth_disadv = 0)
+ORDER BY ac_base DESC;
+```
 
-## Workflow
+## After the Query
 
-**Single item lookup** → read `weapons.md` or `armor.md` in full (small tables).
+**Mastery property mechanics** — read the individual file:
+`$DM_SKILLS_DIR/reference/srd/equipment/mastery/<mastery-lowercase>.md`
+e.g. `mastery/topple.md`, `mastery/nick.md`
 
-**"Which weapons have property X?"** → read `weapons.md`; the Properties column
-lists all properties for each weapon. Scan the table and list matching weapons.
+**Tool descriptions and uses** — read `equipment/tools.md`
 
-**"What does [Mastery] do?"** → read `mastery/<property>.md`.
-
-**Equipping an NPC** → read `weapons.md` for damage/properties, note the mastery
-property, then read the mastery file if the DM needs those mechanics explained.
-
-**If the item isn't in the SRD** (specific trade goods, mounts, vehicles, most
-adventuring gear): note it's outside SRD 5.2.1 and answer from general 5e knowledge.
+**Armor/weapon context** (e.g. what "Versatile" means) — read `equipment/weapons.md`
+or `equipment/armor.md`; both are small (~50 lines) and have property definitions.
 
 ## Output Format
 
-1. Quote the table row directly — include name, cost, damage/AC, weight, properties
-2. For mastery properties, quote the full mechanical text from the file
-3. Keep it compact — weapon stats are most useful as a quick reference
+1. Present weapon results as a table: name, damage, type, properties, mastery, cost
+2. Present armor results as a table: name, AC, strength req, stealth, cost
+3. For mastery mechanics, quote the full text from the mastery file
+4. Filter results to `srd = 1` unless the DM asks for non-SRD options
