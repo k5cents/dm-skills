@@ -7,14 +7,14 @@ description: >
   culture, the Last War, warforged society, Sharn districts, the Mournland, House politics,
   planes of existence, or anything that requires grounding in Eberron canon before answering.
   Also use it when cross-referencing sources for consistency checks or when the source hierarchy
-  matters (campaign homebrew > ERLW > EFOTA > EE > FoE Quickstone).
+  matters (campaign homebrew > ERLW > EFOTA > EE > FoE Quickstone > Eberron wiki).
 ---
 
 # Eberron Lore Lookup
 
 You have access to pre-exported markdown chapters from four Eberron sourcebooks, plus
-campaign-specific homebrew overrides. Use this skill to ground answers in actual source
-text before synthesizing.
+campaign-specific homebrew overrides and a locally-cached Eberron wiki mirror. Use this
+skill to ground answers in actual source text before synthesizing.
 
 ## Source Hierarchy (highest priority first)
 
@@ -23,6 +23,7 @@ text before synthesizing.
 3. **EFOTA** — `$DM_SKILLS_DIR/sourcebooks/efa/` (Sharn inquisitives, artificers, dragonmarked intrigue)
 4. **EE 2024** — `$DM_SKILLS_DIR/sourcebooks/exploringeberron24/` (creator-authored; planes, species, deeper lore)
 5. **FoE Quickstone** — `$DM_SKILLS_DIR/sourcebooks/foequickstone/` (western frontier, new Eberron locations)
+6. **Eberron wiki** — `$DM_SKILLS_DIR/sourcebooks/eberron-wiki/` (3.5e content, minor clans/tribes/NPCs not in 5e sourcebooks; CC BY-SA 3.0)
 
 When sources conflict, apply the hierarchy and flag it explicitly. Campaign homebrew always
 wins — it represents intentional DM decisions that override published canon.
@@ -38,21 +39,25 @@ the reference sourcebooks. A DM decision documented there supersedes everything.
 grep -ril "KEYWORD" homebrew/context/
 ```
 
-### Step 2: Search the sourcebooks
+### Step 2: Search the sourcebooks and wiki cache
 
-Run grep across the Eberron sourcebook directories. Cast wide — use 2–3 keyword variants.
+Run grep across all Eberron sourcebook directories including the wiki cache. Cast wide — use 2–3 keyword variants.
 
 ```bash
-# Find which files contain the topic
+# Find which files contain the topic (all sources including wiki cache)
 grep -ril "KEYWORD" \
   $DM_SKILLS_DIR/sourcebooks/erlw/ \
   $DM_SKILLS_DIR/sourcebooks/efa/ \
   $DM_SKILLS_DIR/sourcebooks/exploringeberron24/ \
-  $DM_SKILLS_DIR/sourcebooks/foequickstone/
+  $DM_SKILLS_DIR/sourcebooks/foequickstone/ \
+  $DM_SKILLS_DIR/sourcebooks/eberron-wiki/
 
 # Get surrounding context (10 lines) for a specific file
 grep -in -A 10 -B 2 "KEYWORD" $DM_SKILLS_DIR/sourcebooks/erlw/ch08-sharn-city-of-towers.md
 ```
+
+If grep finds nothing in any directory, the topic may only be in the full Eberron wiki
+and not yet cached locally. In that case, invoke the **wiki-lookup** skill to fetch it.
 
 ### Step 3: Read relevant sections
 
