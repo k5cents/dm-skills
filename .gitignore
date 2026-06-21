@@ -1,0 +1,18 @@
+# User-built artifacts — populated by scripts/setup.mjs
+# These contain rendered/compiled content from external sources
+# and must NOT be committed to the public repo.
+databases/*.db
+databases/*.csv
+sourcebooks/
+statblocks/
+
+# Keep placeholder files so directories exist after clone
+!databases/.gitkeep
+!sourcebooks/.gitkeep
+!statblocks/.gitkeep
+
+# Node / Python
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store

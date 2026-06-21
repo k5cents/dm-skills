@@ -1,0 +1,3 @@
+# Cow
+
+*Wondrous Item, None*

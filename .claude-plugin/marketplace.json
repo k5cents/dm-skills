@@ -1,0 +1,34 @@
+{
+  "name": "dm-skills",
+  "owner": {
+    "name": "Kiernan Nicholls",
+    "email": "k5cents@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code skills for tabletop RPG Dungeon Masters. Query spells, magic items, and monster stat blocks drawn from the D&D 5e SRD. Designed for campaign prep in Claude Code.",
+    "version": "0.1.0",
+    "homepage": "https://github.com/k5cents/dm-skills"
+  },
+  "plugins": [
+    {
+      "name": "dnd",
+      "description": "Core D&D 5e skills backed by SRD 5.2.1 content — query spells, magic items, and monster stat blocks",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/dnd-monsters",
+        "./skills/dnd-spells",
+        "./skills/dnd-items"
+      ]
+    },
+    {
+      "name": "eberron",
+      "description": "Eberron campaign setting — search sourcebook lore from ERLW, Exploring Eberron 2024, and Frontiers of Eberron",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/eberron-lore"
+      ]
+    }
+  ]
+}

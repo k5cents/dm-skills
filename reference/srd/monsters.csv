@@ -1,0 +1,336 @@
+name,source,slug,cr,cr_num,xp,type,subtype,size,alignment,ac,hp,hp_formula,walk,fly,swim,burrow,climb,hover,str,dex,con,int,wis,cha,passive_perception,darkvision,blindsight,truesight,tremorsense,damage_resistances,damage_immunities,condition_immunities,legendary,mythic,spellcasting,lair,trait_names,habitat,page,srd
+Aboleth,XMM,aboleth,10,10.0,5900,aberration,,Large,Lawful Evil,17,150,20d10 + 40,10,0,40,0,0,0,21,9,15,18,15,18,20,120,0,0,0,,,,1,0,0,0,"Amphibious|Eldritch Restoration|Legendary Resistance (3/Day, or 4/Day in Lair)|Mucus Cloud|Probing Telepathy",Underdark,12,1
+Adult Black Dragon,XMM,adult-black-dragon,14,14.0,11500,dragon,chromatic,Huge,Chaotic Evil,19,195,17d12 + 85,40,80,40,0,0,0,23,14,21,14,13,19,21,120,60,0,0,,acid,,1,0,0,0,"Amphibious|Legendary Resistance (3/Day, or 4/Day in Lair)",Swamp,39,1
+Adult Blue Dragon,XMM,adult-blue-dragon,16,16.0,15000,dragon,chromatic,Huge,Lawful Evil,19,212,17d12 + 102,40,80,0,30,0,0,25,10,23,16,15,20,22,120,60,0,0,,lightning,,1,0,0,0,"Legendary Resistance (3/Day, or 4/Day in Lair)",Coastal,49,1
+Adult Brass Dragon,XMM,adult-brass-dragon,13,13.0,10000,dragon,metallic,Huge,Chaotic Good,18,172,15d12 + 75,40,80,0,30,0,0,23,10,21,14,13,17,21,120,60,0,0,,fire,,1,0,0,0,"Legendary Resistance (3/Day, or 4/Day in Lair)",Desert,55,1
+Adult Bronze Dragon,XMM,adult-bronze-dragon,15,15.0,13000,dragon,metallic,Huge,Lawful Good,18,212,17d12 + 102,40,80,40,0,0,0,25,10,23,16,15,20,22,120,60,0,0,,lightning,,1,0,0,0,"Amphibious|Legendary Resistance (3/Day, or 4/Day in Lair)",Coastal,59,1
+Adult Copper Dragon,XMM,adult-copper-dragon,14,14.0,11500,dragon,metallic,Huge,Chaotic Good,18,184,16d12 + 80,40,80,0,0,40,0,23,12,21,18,15,18,22,120,60,0,0,,acid,,1,0,0,0,"Legendary Resistance (3/Day, or 4/Day in Lair)",Hill,79,1
+Adult Gold Dragon,XMM,adult-gold-dragon,17,17.0,18000,dragon,metallic,Huge,Lawful Good,19,243,18d12 + 126,40,80,40,0,0,0,27,14,25,16,15,24,24,120,60,0,0,,fire,,1,0,0,0,"Amphibious|Legendary Resistance (3/Day, or 4/Day in Lair)",Forest,145,1
+Adult Green Dragon,XMM,adult-green-dragon,15,15.0,13000,dragon,chromatic,Huge,Lawful Evil,19,207,18d12 + 90,40,80,40,0,0,0,23,12,21,18,15,18,22,120,60,0,0,,poison,poisoned,1,0,0,0,"Amphibious|Legendary Resistance (3/Day, or 4/Day in Lair)",Forest,153,1
+Adult Red Dragon,XMM,adult-red-dragon,17,17.0,18000,dragon,chromatic,Huge,Chaotic Evil,19,256,19d12 + 133,40,80,0,0,40,0,27,10,25,16,13,23,23,120,60,0,0,,fire,,1,0,0,0,"Legendary Resistance (3/Day, or 4/Day in Lair)",Hill,255,1
+Adult Silver Dragon,XMM,adult-silver-dragon,16,16.0,15000,dragon,metallic,Huge,Lawful Good,19,216,16d12 + 112,40,80,0,0,0,0,27,10,25,16,13,22,21,120,60,0,0,,cold,,1,0,0,0,"Legendary Resistance (3/Day, or 4/Day in Lair)",Mountain,279,1
+Adult White Dragon,XMM,adult-white-dragon,13,13.0,10000,dragon,chromatic,Huge,Chaotic Evil,18,200,16d12 + 96,40,80,40,30,0,0,22,10,22,8,12,12,21,120,60,0,0,,cold,,1,0,0,0,"Ice Walk|Legendary Resistance (3/Day, or 4/Day in Lair)",Arctic,329,1
+Air Elemental,XMM,air-elemental,5,5.0,1800,elemental,,Large,Neutral,15,90,12d10 + 24,10,"{'number': 90, 'condition': '(hover)'}",0,0,0,0,14,20,14,6,10,6,10,60,0,0,0,bludgeoning|lightning|piercing|slashing,poison|thunder,exhaustion|grappled|paralyzed|petrified|poisoned|prone|restrained|unconscious,0,0,0,0,Air Form,Desert,13,1
+Allosaurus,XMM,allosaurus,2,2.0,450,beast,dinosaur,Large,Unaligned,13,51,6d10 + 18,60,0,0,0,0,0,19,13,17,2,12,5,15,0,0,0,0,,,,0,0,0,0,,Grassland,348,1
+Ancient Black Dragon,XMM,ancient-black-dragon,21,21.0,33000,dragon,chromatic,Gargantuan,Chaotic Evil,22,367,21d20 + 147,40,80,40,0,0,0,27,14,25,16,15,22,26,120,60,0,0,,acid,,1,0,0,0,"Amphibious|Legendary Resistance (4/Day, or 5/Day in Lair)",Swamp,40,1
+Ancient Blue Dragon,XMM,ancient-blue-dragon,23,23.0,50000,dragon,chromatic,Gargantuan,Lawful Evil,22,481,26d20 + 208,40,80,0,40,0,0,29,10,27,18,17,25,27,120,60,0,0,,lightning,,1,0,0,0,"Legendary Resistance (4/Day, or 5/Day in Lair)",Coastal,50,1
+Ancient Brass Dragon,XMM,ancient-brass-dragon,20,20.0,25000,dragon,metallic,Gargantuan,Chaotic Good,20,332,19d20 + 133,40,80,0,40,0,0,27,10,25,16,15,22,24,120,60,0,0,,fire,,1,0,0,0,"Legendary Resistance (4/Day, or 5/Day in Lair)",Desert,56,1
+Ancient Bronze Dragon,XMM,ancient-bronze-dragon,22,22.0,41000,dragon,metallic,Gargantuan,Lawful Good,22,444,24d20 + 192,40,80,40,0,0,0,29,10,27,18,17,25,27,120,60,0,0,,lightning,,1,0,0,0,"Amphibious|Legendary Resistance (4/Day, or 5/Day in Lair)",Coastal,60,1
+Ancient Copper Dragon,XMM,ancient-copper-dragon,21,21.0,33000,dragon,metallic,Gargantuan,Chaotic Good,21,367,21d20 + 147,40,80,0,0,40,0,27,12,25,20,17,22,27,120,60,0,0,,acid,,1,0,0,0,"Legendary Resistance (4/Day, or 5/Day in Lair)",Hill,80,1
+Ancient Gold Dragon,XMM,ancient-gold-dragon,24,24.0,62000,dragon,metallic,Gargantuan,Lawful Good,22,546,28d20 + 252,40,80,40,0,0,0,30,14,29,18,17,28,27,120,60,0,0,,fire,,1,0,0,0,"Amphibious|Legendary Resistance (4/Day, or 5/Day in Lair)",Forest,146,1
+Ancient Green Dragon,XMM,ancient-green-dragon,22,22.0,41000,dragon,chromatic,Gargantuan,Lawful Evil,21,402,23d20 + 161,40,80,40,0,0,0,27,12,25,20,17,22,27,120,60,0,0,,poison,poisoned,1,0,0,0,"Amphibious|Legendary Resistance (4/Day, or 5/Day in Lair)",Forest,154,1
+Ancient Red Dragon,XMM,ancient-red-dragon,24,24.0,62000,dragon,chromatic,Gargantuan,Chaotic Evil,22,507,26d20 + 234,40,80,0,0,40,0,30,10,29,18,15,27,26,120,60,0,0,,fire,,1,0,0,0,"Legendary Resistance (4/Day, or 5/Day in Lair)",Hill,256,1
+Ancient Silver Dragon,XMM,ancient-silver-dragon,23,23.0,50000,dragon,metallic,Gargantuan,Lawful Good,22,468,24d20 + 216,40,80,0,0,0,0,30,10,29,18,15,26,26,120,60,0,0,,cold,,1,0,0,0,"Legendary Resistance (4/Day, or 5/Day in Lair)",Mountain,280,1
+Ancient White Dragon,XMM,ancient-white-dragon,20,20.0,25000,dragon,chromatic,Gargantuan,Chaotic Evil,20,333,18d20 + 144,40,80,40,40,0,0,26,10,26,10,13,18,23,120,60,0,0,,cold,,1,0,0,0,"Ice Walk|Legendary Resistance (4/Day, or 5/Day in Lair)",Arctic,330,1
+Animated Armor,XMM,animated-armor,1,1.0,200,construct,,Medium,Unaligned,18,33,6d8 + 6,25,0,0,0,0,0,14,11,13,1,3,1,6,0,60,0,0,,poison|psychic,charmed|deafened|exhaustion|frightened|paralyzed|petrified|poisoned,0,0,0,0,,Urban,16,1
+Animated Flying Sword,XMM,animated-flying-sword,1/4,0.25,50,construct,,Small,Unaligned,17,14,4d6,5,"{'number': 50, 'condition': '(hover)'}",0,0,0,0,12,15,11,1,5,1,7,0,60,0,0,,poison|psychic,charmed|deafened|exhaustion|frightened|paralyzed|petrified|poisoned,0,0,0,0,,Urban,17,1
+Animated Object,XPHB,animated-object,,,,construct,,Tiny,Unaligned,15,,,30,0,0,0,0,0,16,10,10,3,3,1,6,0,30,0,0,,,,0,0,0,0,,,240,1
+Animated Rug of Smothering,XMM,animated-rug-of-smothering,2,2.0,450,construct,,Large,Unaligned,12,27,5d10,10,0,0,0,0,0,17,14,10,1,3,1,6,0,60,0,0,,poison|psychic,charmed|deafened|exhaustion|frightened|paralyzed|petrified|poisoned,0,0,0,0,,Urban,17,1
+Ankheg,XMM,ankheg,2,2.0,450,monstrosity,,Large,Unaligned,14,45,6d10 + 12,30,0,0,10,0,0,17,11,14,1,13,6,11,60,0,0,60,,,,0,0,0,0,Tunneler,Forest,18,1
+Ankylosaurus,XMM,ankylosaurus,3,3.0,700,beast,dinosaur,Huge,Unaligned,15,68,8d12 + 16,30,0,0,0,0,0,19,11,15,2,12,5,11,0,0,0,0,,,,0,0,0,0,,Grassland,348,1
+Ape,XMM,ape,1/2,0.5,100,beast,,Medium,Unaligned,12,19,3d8 + 6,30,0,0,0,30,0,16,14,14,6,12,7,13,0,0,0,0,,,,0,0,0,0,,Forest,348,1
+Archelon,XMM,archelon,4,4.0,1100,beast,dinosaur,Huge,Unaligned,17,90,12d12 + 12,20,0,80,0,0,0,18,16,13,4,14,6,12,0,0,0,0,,,,0,0,0,0,Amphibious,Underwater,349,1
+Archmage,XMM,archmage,12,12.0,8400,humanoid,wizard,Small,Neutral,17,170,31d8 + 31,30,0,0,0,0,0,10,14,12,20,15,16,16,0,0,0,0,,psychic,charmed,0,0,0,0,Magic Resistance,Any,199,1
+Assassin,XMM,assassin,8,8.0,3900,humanoid,,Small,Neutral,16,97,15d8 + 30,30,0,0,0,0,0,11,18,14,16,11,10,16,0,0,0,0,poison,,,0,0,0,0,Evasion,Any,22,1
+Awakened Shrub,XMM,awakened-shrub,0,0.0,10,plant,,Small,Neutral,9,10,3d6,20,0,0,0,0,0,3,8,11,10,10,6,10,0,0,0,0,piercing,,,0,0,0,0,,Forest,23,1
+Awakened Tree,XMM,awakened-tree,2,2.0,450,plant,,Huge,Neutral,13,59,7d12 + 14,20,0,0,0,0,0,19,6,15,10,10,7,10,0,0,0,0,bludgeoning|piercing,,,0,0,0,0,,Forest,23,1
+Axe Beak,XMM,axe-beak,1/4,0.25,50,monstrosity,,Large,Unaligned,11,19,3d10 + 3,50,0,0,0,0,0,14,12,12,2,10,5,10,0,0,0,0,,,,0,0,0,0,,Arctic,24,1
+Azer Sentinel,XMM,azer-sentinel,2,2.0,450,elemental,,Medium,Lawful Neutral,17,39,6d8 + 12,30,0,0,0,0,0,17,12,15,12,13,10,11,0,0,0,0,,fire|poison,poisoned,0,0,0,0,Fire Aura|Illumination,Mountain,25,1
+Baboon,XMM,baboon,0,0.0,10,beast,,Small,Unaligned,12,3,1d6,30,0,0,0,30,0,8,14,11,4,12,6,11,0,0,0,0,,,,0,0,0,0,Pack Tactics,Forest,349,1
+Badger,XMM,badger,0,0.0,10,beast,,Tiny,Unaligned,11,5,1d4 + 3,20,0,0,5,0,0,10,11,16,2,12,5,13,30,0,0,0,poison,,,0,0,0,0,,Forest,349,1
+Balor,XMM,balor,19,19.0,22000,fiend,demon,Huge,Chaotic Evil,19,287,23d12 + 138,40,80,0,0,0,0,26,15,22,20,16,22,19,0,0,120,0,cold|lightning,fire|poison,charmed|frightened|poisoned,0,0,0,0,Death Throes|Fire Aura|Legendary Resistance (3/Day)|Magic Resistance,Planar Abyss,26,1
+Bandit,XMM,bandit,1/8,0.125,25,humanoid,,Small,Neutral,12,11,2d8 + 2,30,0,0,0,0,0,11,12,12,10,10,10,10,0,0,0,0,,,,0,0,0,0,,Any,27,1
+Bandit Captain,XMM,bandit-captain,2,2.0,450,humanoid,,Small,Neutral,15,52,8d8 + 16,30,0,0,0,0,0,15,16,14,14,11,14,10,0,0,0,0,,,,0,0,0,0,,Any,27,1
+Barbed Devil,XMM,barbed-devil,5,5.0,1800,fiend,devil,Medium,Lawful Evil,15,110,13d8 + 52,30,0,0,0,30,0,16,17,18,12,14,14,18,120,0,0,0,cold,fire|poison,poisoned,0,0,0,0,Barbed Hide|Diabolical Restoration|Magic Resistance,Planar Nine Hells,30,1
+Basilisk,XMM,basilisk,3,3.0,700,monstrosity,,Medium,Unaligned,15,52,8d8 + 16,20,0,0,0,0,0,16,8,15,2,8,7,9,60,0,0,0,,,,0,0,0,0,,Mountain,32,1
+Bat,XMM,bat,0,0.0,10,beast,,Tiny,Unaligned,12,1,1d4 - 1,5,30,0,0,0,0,2,15,8,2,12,4,11,0,60,0,0,,,,0,0,0,0,,Forest,349,1
+Bearded Devil,XMM,bearded-devil,3,3.0,700,fiend,devil,Medium,Lawful Evil,13,58,9d8 + 18,30,0,0,0,0,0,16,15,15,9,11,14,10,120,0,0,0,cold,fire|poison,frightened|poisoned,0,0,0,0,Magic Resistance,Planar Nine Hells,33,1
+Behir,XMM,behir,11,11.0,7200,monstrosity,,Huge,Neutral Evil,17,168,16d12 + 64,50,0,0,0,50,0,23,16,18,7,14,12,16,90,0,0,0,,lightning,,0,0,0,0,,Underdark,34,1
+Berserker,XMM,berserker,2,2.0,450,humanoid,,Small,Neutral,13,67,9d8 + 27,30,0,0,0,0,0,16,12,17,9,11,9,10,0,0,0,0,,,,0,0,0,0,Bloodied Frenzy,Any,37,1
+Black Bear,XMM,black-bear,1/2,0.5,100,beast,,Medium,Unaligned,11,19,3d8 + 6,30,0,30,0,30,0,15,12,14,2,12,7,15,60,0,0,0,,,,0,0,0,0,,Forest,349,1
+Black Dragon Wyrmling,XMM,black-dragon-wyrmling,2,2.0,450,dragon,chromatic,Medium,Chaotic Evil,17,33,6d8 + 6,30,60,30,0,0,0,15,14,13,10,11,13,14,60,10,0,0,,acid,,0,0,0,0,Amphibious,Swamp,38,1
+Black Pudding,XMM,black-pudding,4,4.0,1100,ooze,,Large,Unaligned,7,68,8d10 + 24,20,0,0,0,20,0,16,5,16,1,6,1,8,0,60,0,0,,acid|cold|lightning|slashing,charmed|deafened|exhaustion|frightened|grappled|prone|restrained,0,0,0,0,Amorphous|Corrosive Form|Spider Climb,Underdark,42,1
+Blink Dog,XMM,blink-dog,1/4,0.25,50,fey,,Medium,Lawful Good,13,22,4d8 + 4,40,0,0,0,0,0,12,17,12,10,13,11,15,60,0,0,0,,,,0,0,0,0,,Forest,46,1
+Blood Hawk,XMM,blood-hawk,1/8,0.125,25,beast,,Small,Unaligned,12,7,2d6,10,60,0,0,0,0,6,14,10,3,14,5,16,0,0,0,0,,,,0,0,0,0,Pack Tactics,Arctic,350,1
+Blue Dragon Wyrmling,XMM,blue-dragon-wyrmling,3,3.0,700,dragon,chromatic,Medium,Lawful Evil,17,65,10d8 + 20,30,60,0,15,0,0,17,10,15,12,11,15,14,60,10,0,0,,lightning,,0,0,0,0,,Coastal,48,1
+Boar,XMM,boar,1/4,0.25,50,beast,,Medium,Unaligned,11,13,2d8 + 4,40,0,0,0,0,0,13,11,14,2,9,5,9,0,0,0,0,,,,0,0,0,0,Bloodied Fury,Forest,350,1
+Bone Devil,XMM,bone-devil,9,9.0,5000,fiend,devil,Large,Lawful Evil,16,161,17d10 + 68,40,40,0,0,0,0,18,16,18,13,14,16,12,120,0,0,0,cold,fire|poison,poisoned,0,0,0,0,Diabolical Restoration|Magic Resistance,Planar Nine Hells,52,1
+Brass Dragon Wyrmling,XMM,brass-dragon-wyrmling,1,1.0,200,dragon,metallic,Medium,Chaotic Good,15,22,4d8 + 4,30,60,0,15,0,0,15,10,13,10,11,13,14,60,10,0,0,,fire,,0,0,0,0,,Desert,54,1
+Bronze Dragon Wyrmling,XMM,bronze-dragon-wyrmling,2,2.0,450,dragon,metallic,Medium,Lawful Good,15,39,6d8 + 12,30,60,30,0,0,0,17,10,15,12,11,15,14,60,10,0,0,,lightning,,0,0,0,0,Amphibious,Coastal,58,1
+Brown Bear,XMM,brown-bear,1,1.0,200,beast,,Large,Unaligned,11,22,3d10 + 6,40,0,0,0,30,0,17,12,15,2,13,7,13,60,0,0,0,,,,0,0,0,0,,Arctic,350,1
+Bugbear Stalker,XMM,bugbear-stalker,3,3.0,700,fey,goblinoid,Medium,Chaotic Evil,15,65,10d8 + 20,30,0,0,0,0,0,17,14,14,11,12,11,11,60,0,0,0,,,,0,0,0,0,Abduct,Forest,62,1
+Bugbear Warrior,XMM,bugbear-warrior,1,1.0,200,fey,goblinoid,Medium,Chaotic Evil,14,33,6d8 + 6,30,0,0,0,0,0,15,14,13,8,11,9,10,60,0,0,0,,,,0,0,0,0,Abduct,Forest,62,1
+Bulette,XMM,bulette,5,5.0,1800,monstrosity,,Large,Unaligned,17,94,9d10 + 45,40,0,0,40,0,0,19,11,21,2,10,5,16,60,0,0,120,,,,0,0,0,0,,Grassland,63,1
+Camel,XMM,camel,1/8,0.125,25,beast,,Large,Unaligned,10,17,2d10 + 6,50,0,0,0,0,0,15,8,17,2,11,5,10,60,0,0,0,,,,0,0,0,0,,Desert,351,1
+Cat,XMM,cat,0,0.0,10,beast,,Tiny,Unaligned,12,2,1d4,40,0,0,0,40,0,3,15,10,3,12,7,13,60,0,0,0,,,,0,0,0,0,Jumper,Desert,351,1
+Centaur Trooper,XMM,centaur-trooper,2,2.0,450,fey,,Large,Neutral Good,16,45,6d10 + 12,50,0,0,0,0,0,18,14,14,9,13,11,13,0,0,0,0,,,,0,0,0,0,,Forest,67,1
+Chain Devil,XMM,chain-devil,8,8.0,3900,fiend,devil,Medium,Lawful Evil,15,85,10d8 + 40,30,0,0,0,0,0,18,15,18,11,12,14,11,120,0,0,0,bludgeoning|cold|piercing|slashing,fire|poison,poisoned,0,0,0,0,Diabolical Restoration|Magic Resistance,Planar Nine Hells,68,1
+Chimera,XMM,chimera,6,6.0,2300,monstrosity,,Large,Chaotic Evil,14,114,12d10 + 48,30,60,0,0,0,0,19,11,19,3,14,10,18,60,0,0,0,,,,0,0,0,0,,Grassland,70,1
+Chuul,XMM,chuul,4,4.0,1100,aberration,,Large,Chaotic Evil,16,76,9d10 + 27,30,0,30,0,0,0,19,10,16,5,11,5,14,60,0,0,0,,poison,poisoned,0,0,0,0,Amphibious|Sense Magic,Coastal,71,1
+Clay Golem,XMM,clay-golem,9,9.0,5000,construct,,Large,Unaligned,14,123,13d10 + 52,20,0,0,0,0,0,20,9,18,3,8,1,9,60,0,0,0,bludgeoning|piercing|slashing,acid|poison|psychic,charmed|exhaustion|frightened|paralyzed|petrified|poisoned,0,0,0,0,Acid Absorption|Berserk|Immutable Form|Magic Resistance,Urban,72,1
+Cloaker,XMM,cloaker,8,8.0,3900,aberration,,Large,Chaotic Neutral,14,91,14d10 + 14,10,40,0,0,0,0,17,15,12,13,14,7,12,120,0,0,0,,,frightened,0,0,0,0,Light Sensitivity,Underdark,73,1
+Cloud Giant,XMM,cloud-giant,9,9.0,5000,giant,,Huge,Neutral,14,200,16d12 + 96,40,"{'number': 20, 'condition': '(hover)'}",0,0,0,0,27,10,22,12,16,16,21,0,0,0,0,,,,0,0,0,0,,Mountain,74,1
+Cockatrice,XMM,cockatrice,1/2,0.5,100,monstrosity,,Small,Unaligned,11,22,5d6 + 5,20,40,0,0,0,0,6,12,12,2,13,5,11,60,0,0,0,,,petrified,0,0,0,0,,Grassland,75,1
+Commoner,XMM,commoner,0,0.0,10,humanoid,,Small,Neutral,10,4,1d8,30,0,0,0,0,0,10,10,10,10,10,10,10,0,0,0,0,,,,0,0,0,0,Training,Any,77,1
+Constrictor Snake,XMM,constrictor-snake,1/4,0.25,50,beast,,Large,Unaligned,13,13,2d10 + 2,30,0,30,0,0,0,15,14,12,1,10,3,12,0,10,0,0,,,,0,0,0,0,,Desert,351,1
+Copper Dragon Wyrmling,XMM,copper-dragon-wyrmling,1,1.0,200,dragon,metallic,Medium,Chaotic Good,16,22,4d8 + 4,30,60,0,0,30,0,15,12,13,14,11,13,14,60,10,0,0,,acid,,0,0,0,0,,Hill,78,1
+Couatl,XMM,couatl,4,4.0,1100,celestial,,Medium,Lawful Good,19,60,8d8 + 24,30,90,0,0,0,0,16,20,17,18,20,18,15,0,0,120,0,bludgeoning|piercing|slashing,psychic|radiant,,0,0,0,0,Shielded Mind,Desert,82,1
+Crab,XMM,crab,0,0.0,10,beast,,Tiny,Unaligned,11,3,1d4 + 1,20,0,20,0,0,0,6,11,12,1,8,2,9,0,30,0,0,,,,0,0,0,0,Amphibious,Coastal,351,1
+Crocodile,XMM,crocodile,1/2,0.5,100,beast,,Large,Unaligned,12,13,2d10 + 2,20,0,30,0,0,0,15,10,13,2,10,5,10,0,0,0,0,,,,0,0,0,0,Hold Breath,Coastal,352,1
+Cultist,XMM,cultist,1/8,0.125,25,humanoid,,Small,Neutral,12,9,2d8,30,0,0,0,0,0,11,12,10,10,11,10,10,0,0,0,0,,,,0,0,0,0,,Any,84,1
+Cultist Fanatic,XMM,cultist-fanatic,2,2.0,450,humanoid,,Small,Neutral,13,44,8d8 + 8,30,0,0,0,0,0,11,14,12,10,14,13,12,0,0,0,0,,,,0,0,0,0,,Any,85,1
+Darkmantle,XMM,darkmantle,1/2,0.5,100,aberration,,Small,Unaligned,11,22,5d6 + 5,10,30,0,0,0,0,16,12,13,2,10,5,10,0,60,0,0,,,,0,0,0,0,,Underdark,90,1
+Death Dog,XMM,death-dog,1,1.0,200,monstrosity,,Medium,Neutral Evil,12,39,6d8 + 12,40,0,0,0,0,0,15,14,14,3,13,6,15,120,0,0,0,,,blinded|charmed|deafened|frightened|stunned|unconscious,0,0,0,0,,Desert,91,1
+Deer,XMM,deer,0,0.0,10,beast,,Medium,Unaligned,13,4,1d8,50,0,0,0,0,0,11,16,11,2,14,5,14,60,0,0,0,,,,0,0,0,0,Agile,Forest,352,1
+Deva,XMM,deva,10,10.0,5900,celestial,angel,Medium,Lawful Good,17,229,27d8 + 108,30,"{'number': 90, 'condition': '(hover)'}",0,0,0,0,18,18,18,17,20,20,19,120,0,0,0,radiant,,charmed|exhaustion|frightened,0,0,0,0,Exalted Restoration|Magic Resistance,Planar Upper,97,1
+Dire Wolf,XMM,dire-wolf,1,1.0,200,beast,,Large,Unaligned,14,22,3d10 + 6,50,0,0,0,0,0,17,15,15,3,12,7,15,60,0,0,0,,,,0,0,0,0,Pack Tactics,Forest,352,1
+Djinni,XMM,djinni,11,11.0,7200,elemental,genie,Large,Chaotic Good,17,218,19d10 + 114,30,"{'number': 90, 'condition': '(hover)'}",0,0,0,0,21,15,22,15,16,20,13,120,0,0,0,,lightning|thunder,,0,0,0,0,Elemental Restoration|Magic Resistance|Wishes,Coastal,99,1
+Doppelganger,XMM,doppelganger,3,3.0,700,monstrosity,,Medium,Neutral,14,52,8d8 + 16,30,0,0,0,0,0,11,18,14,11,12,14,11,60,0,0,0,,,charmed,0,0,0,0,,Underdark,100,1
+Draconic Spirit,XPHB,draconic-spirit,,,,dragon,,Large,Neutral,,,,30,60,30,0,0,0,19,14,17,10,14,14,12,60,30,0,0,acid|cold|fire|lightning|poison,,charmed|frightened|poisoned,0,0,0,0,Shared Resistances,,325,1
+Draft Horse,XMM,draft-horse,1/4,0.25,50,beast,,Large,Unaligned,10,15,2d10 + 4,40,0,0,0,0,0,18,10,15,2,11,7,10,0,0,0,0,,,,0,0,0,0,,Urban,352,1
+Dragon Turtle,XMM,dragon-turtle,17,17.0,18000,dragon,,Gargantuan,Neutral,20,356,23d20 + 115,20,0,50,0,0,0,25,10,20,10,12,12,11,120,0,0,0,fire,,,0,0,0,0,Amphibious,Coastal,103,1
+Dretch,XMM,dretch,1/4,0.25,50,fiend,demon,Small,Chaotic Evil,11,18,4d6 + 4,20,0,0,0,0,0,12,11,12,5,8,3,9,60,0,0,0,cold|fire|lightning,poison,poisoned,0,0,0,0,,Planar Abyss,103,1
+Drider,XMM,drider,6,6.0,2300,monstrosity,,Large,Chaotic Evil,19,123,13d10 + 52,30,0,0,0,30,0,16,19,18,13,16,12,16,120,0,0,0,,,,0,0,0,0,Spider Climb|Sunlight Sensitivity|Web Walker,Forest,105,1
+Druid,XMM,druid,2,2.0,450,humanoid,,Small,Neutral,13,44,8d8 + 8,30,0,0,0,0,0,10,12,13,12,16,11,15,0,0,0,0,,,,0,0,0,0,,Any,106,1
+Dryad,XMM,dryad,1,1.0,200,fey,,Medium,Neutral,16,22,5d8,30,0,0,0,0,0,10,12,11,14,15,18,14,60,0,0,0,,,,0,0,0,0,Magic Resistance|Speak with Beasts and Plants,Forest,107,1
+Dust Mephit,XMM,dust-mephit,1/2,0.5,100,elemental,,Small,Neutral Evil,12,17,5d6,30,30,0,0,0,0,5,14,10,9,11,10,12,60,0,0,0,,poison,exhaustion|poisoned,0,0,0,0,Death Burst,Planar Elemental,206,1
+Eagle,XMM,eagle,0,0.0,10,beast,,Small,Unaligned,12,4,1d6 + 1,10,60,0,0,0,0,6,15,12,2,14,7,16,0,0,0,0,,,,0,0,0,0,,Coastal,353,1
+Earth Elemental,XMM,earth-elemental,5,5.0,1800,elemental,,Large,Neutral,17,147,14d10 + 70,30,0,0,30,0,0,20,8,20,5,10,5,10,60,0,0,60,,poison,exhaustion|paralyzed|petrified|poisoned|unconscious,0,0,0,0,Earth Glide|Siege Monster,Mountain,108,1
+Efreeti,XMM,efreeti,11,11.0,7200,elemental,genie,Large,Neutral,17,212,17d10 + 119,40,"{'number': 60, 'condition': '(hover)'}",0,0,0,0,22,12,24,16,15,19,12,120,0,0,0,,fire,,0,0,0,0,Elemental Restoration|Magic Resistance|Wishes,Desert,109,1
+Elephant,XMM,elephant,4,4.0,1100,beast,,Huge,Unaligned,12,76,8d12 + 24,40,0,0,0,0,0,22,9,17,3,11,6,10,0,0,0,0,,,,0,0,0,0,,Grassland,353,1
+Elk,XMM,elk,1/4,0.25,50,beast,,Large,Unaligned,10,11,2d10,50,0,0,0,0,0,16,10,11,2,10,6,12,60,0,0,0,,,,0,0,0,0,,Forest,353,1
+Erinyes,XMM,erinyes,12,12.0,8400,fiend,devil,Medium,Lawful Evil,18,178,21d8 + 84,30,60,0,0,0,0,18,16,18,14,14,18,16,0,0,120,0,cold,fire|poison,poisoned,0,0,0,0,Diabolical Restoration|Magic Resistance|Magic Rope,Planar Nine Hells,114,1
+Ettercap,XMM,ettercap,2,2.0,450,monstrosity,,Medium,Neutral Evil,13,44,8d8 + 8,30,0,0,0,30,0,14,15,13,7,12,8,13,60,0,0,0,,,,0,0,0,0,Spider Climb|Web Walker,Forest,115,1
+Ettin,XMM,ettin,4,4.0,1100,giant,,Large,Chaotic Evil,12,85,10d10 + 30,40,0,0,0,0,0,21,8,17,6,10,8,14,60,0,0,0,,,blinded|charmed|deafened|frightened|stunned|unconscious,0,0,0,0,,Hill,116,1
+Fire Elemental,XMM,fire-elemental,5,5.0,1800,elemental,,Large,Neutral,13,93,11d10 + 33,50,0,0,0,0,0,10,17,16,6,10,7,10,60,0,0,0,bludgeoning|piercing|slashing,fire|poison,exhaustion|grappled|paralyzed|petrified|poisoned|prone|restrained|unconscious,0,0,0,0,Fire Aura|Fire Form|Illumination|Water Susceptibility,Desert,118,1
+Fire Giant,XMM,fire-giant,9,9.0,5000,giant,,Huge,Lawful Evil,18,162,13d12 + 78,30,0,0,0,0,0,25,9,23,10,14,13,16,0,0,0,0,,fire,,0,0,0,0,,Mountain,119,1
+Flesh Golem,XMM,flesh-golem,5,5.0,1800,construct,,Medium,Neutral,9,127,15d8 + 60,30,0,0,0,0,0,19,9,18,6,10,5,10,60,0,0,0,,lightning|poison,charmed|exhaustion|frightened|paralyzed|petrified|poisoned,0,0,0,0,Aversion to Fire|Berserk|Immutable Form|Lightning Absorption|Magic Resistance,Any,121,1
+Flying Snake,XMM,flying-snake,1/8,0.125,25,monstrosity,,Tiny,Unaligned,14,5,2d4,30,60,30,0,0,0,4,15,11,2,12,5,11,0,10,0,0,,,,0,0,0,0,Flyby,Desert,353,1
+Frog,XMM,frog,0,0.0,10,beast,,Tiny,Unaligned,11,1,1d4 - 1,20,0,20,0,0,0,1,13,8,1,8,3,11,30,0,0,0,,,,0,0,0,0,Amphibious|Standing Leap,Forest,354,1
+Frost Giant,XMM,frost-giant,8,8.0,3900,giant,,Huge,Neutral Evil,15,149,13d12 + 65,40,0,0,0,0,0,23,9,21,9,10,12,13,0,0,0,0,,cold,,0,0,0,0,,Arctic,124,1
+Gargoyle,XMM,gargoyle,2,2.0,450,elemental,,Medium,Chaotic Evil,15,67,9d8 + 27,30,60,0,0,0,0,15,11,16,6,11,7,10,60,0,0,0,,poison,exhaustion|petrified|poisoned,0,0,0,0,Flyby,Underdark,128,1
+Gelatinous Cube,XMM,gelatinous-cube,2,2.0,450,ooze,,Large,Unaligned,6,63,6d10 + 30,15,0,0,0,0,0,14,3,20,1,6,1,8,0,60,0,0,,acid,blinded|charmed|deafened|exhaustion|frightened|prone,0,0,0,0,Ooze Cube|Transparent,Underdark,129,1
+Ghast,XMM,ghast,2,2.0,450,undead,,Medium,Chaotic Evil,13,36,8d8,30,0,0,0,0,0,16,17,10,11,10,8,10,60,0,0,0,necrotic,poison,charmed|exhaustion|poisoned,0,0,0,0,Stench,Swamp,130,1
+Ghost,XMM,ghost,4,4.0,1100,undead,,Medium,Neutral,11,45,10d8,5,"{'number': 40, 'condition': '(hover)'}",0,0,0,0,7,13,10,10,12,17,11,60,0,0,0,acid|bludgeoning|cold|fire|lightning|piercing|slashing|thunder,necrotic|poison,charmed|exhaustion|frightened|grappled|paralyzed|petrified|poisoned|prone|restrained,0,0,0,0,Ethereal Sight|Incorporeal Movement,Underdark,131,1
+Ghoul,XMM,ghoul,1,1.0,200,undead,,Medium,Chaotic Evil,12,22,5d8,30,0,0,0,0,0,13,15,10,7,10,6,10,60,0,0,0,,poison,charmed|exhaustion|poisoned,0,0,0,0,,Swamp,132,1
+Giant Ape,XMM,giant-ape,7,7.0,2900,beast,,Huge,Unaligned,12,168,16d12 + 64,40,0,0,0,40,0,23,14,18,5,12,7,14,0,0,0,0,,,,0,0,0,0,,Forest,354,1
+Giant Badger,XMM,giant-badger,1/4,0.25,50,beast,,Medium,Unaligned,13,15,2d8 + 6,30,0,0,10,0,0,13,10,17,2,12,5,13,60,0,0,0,poison,,,0,0,0,0,,Forest,354,1
+Giant Bat,XMM,giant-bat,1/4,0.25,50,beast,,Large,Unaligned,13,22,4d10,10,60,0,0,0,0,15,16,11,2,12,6,11,0,120,0,0,,,,0,0,0,0,,Forest,355,1
+Giant Boar,XMM,giant-boar,2,2.0,450,beast,,Large,Unaligned,13,42,5d10 + 15,40,0,0,0,0,0,17,10,16,2,7,5,8,0,0,0,0,,,,0,0,0,0,Bloodied Fury,Forest,355,1
+Giant Centipede,XMM,giant-centipede,1/4,0.25,50,beast,,Small,Unaligned,14,9,2d6 + 2,30,0,0,0,30,0,5,14,12,1,7,3,8,0,30,0,0,,,,0,0,0,0,,Underdark,355,1
+Giant Constrictor Snake,XMM,giant-constrictor-snake,2,2.0,450,beast,,Huge,Unaligned,12,60,8d12 + 8,30,0,30,0,0,0,19,14,12,1,10,3,12,0,10,0,0,,,,0,0,0,0,,Desert,355,1
+Giant Crab,XMM,giant-crab,1/8,0.125,25,beast,,Medium,Unaligned,15,13,3d8,30,0,30,0,0,0,13,13,11,1,9,3,9,0,30,0,0,,,,0,0,0,0,Amphibious,Coastal,356,1
+Giant Crocodile,XMM,giant-crocodile,5,5.0,1800,beast,,Huge,Unaligned,14,85,9d12 + 27,30,0,50,0,0,0,21,9,17,2,10,7,10,0,0,0,0,,,,0,0,0,0,Hold Breath,Coastal,356,1
+Giant Eagle,XMM,giant-eagle,1,1.0,200,celestial,,Large,Neutral Good,13,26,4d10 + 4,10,80,0,0,0,0,16,17,13,8,14,10,16,0,0,0,0,necrotic|radiant,,,0,0,0,0,,Coastal,356,1
+Giant Elk,XMM,giant-elk,2,2.0,450,celestial,,Huge,Neutral Good,14,42,5d12 + 10,60,0,0,0,0,0,19,18,14,7,14,10,14,90,0,0,0,necrotic|radiant,,,0,0,0,0,,Forest,356,1
+Giant Fire Beetle,XMM,giant-fire-beetle,0,0.0,10,beast,,Small,Unaligned,13,4,1d6 + 1,30,0,0,0,30,0,8,10,12,1,7,3,8,0,30,0,0,fire,,,0,0,0,0,Illumination,Underdark,357,1
+Giant Frog,XMM,giant-frog,1/4,0.25,50,beast,,Medium,Unaligned,11,18,4d8,30,0,30,0,0,0,12,13,11,2,10,3,12,30,0,0,0,,,,0,0,0,0,Amphibious|Standing Leap,Forest,357,1
+Giant Goat,XMM,giant-goat,1/2,0.5,100,beast,,Large,Unaligned,11,19,3d10 + 3,40,0,0,0,30,0,17,13,12,3,12,6,13,60,0,0,0,,,,0,0,0,0,,Grassland,357,1
+Giant Hyena,XMM,giant-hyena,1,1.0,200,beast,,Large,Unaligned,12,45,6d10 + 12,50,0,0,0,0,0,16,14,14,2,12,7,13,60,0,0,0,,,,0,0,0,0,,Desert,357,1
+Giant Insect,XPHB,giant-insect,,,,beast,,Large,Unaligned,,,,40,"{'number': 40, 'condition': '(Wasp only)'}",0,0,40,0,17,13,15,4,14,3,12,60,0,0,0,,,,0,0,0,0,Spider Climb,,279,1
+Giant Lizard,XMM,giant-lizard,1/4,0.25,50,beast,,Large,Unaligned,12,19,3d10 + 3,40,0,0,0,40,0,15,12,13,2,10,5,10,60,0,0,0,,,,0,0,0,0,Spider Climb,Coastal,358,1
+Giant Octopus,XMM,giant-octopus,1,1.0,200,beast,,Large,Unaligned,11,45,7d10 + 7,10,0,60,0,0,0,17,13,13,5,10,4,14,60,0,0,0,,,,0,0,0,0,Water Breathing,Underwater,358,1
+Giant Owl,XMM,giant-owl,1/4,0.25,50,celestial,,Large,Neutral,12,19,3d10 + 3,5,60,0,0,0,0,13,15,12,10,14,10,16,120,0,0,0,necrotic|radiant,,,0,0,0,0,Flyby,Arctic,358,1
+Giant Rat,XMM,giant-rat,1/8,0.125,25,beast,,Small,Unaligned,13,7,2d6,30,0,0,0,30,0,7,16,11,2,10,4,12,60,0,0,0,,,,0,0,0,0,Pack Tactics,Forest,358,1
+Giant Scorpion,XMM,giant-scorpion,3,3.0,700,beast,,Large,Unaligned,15,52,7d10 + 14,40,0,0,0,0,0,16,13,15,1,9,3,9,0,60,0,0,,,,0,0,0,0,,Desert,359,1
+Giant Seahorse,XMM,giant-seahorse,1/2,0.5,100,beast,,Large,Unaligned,14,16,3d10,5,0,40,0,0,0,15,12,11,2,12,5,11,0,0,0,0,,,,0,0,0,0,Water Breathing,Underwater,359,1
+Giant Shark,XMM,giant-shark,5,5.0,1800,beast,,Huge,Unaligned,13,92,8d12 + 40,5,0,60,0,0,0,23,11,21,1,10,5,13,0,60,0,0,,,,0,0,0,0,Water Breathing,Underwater,359,1
+Giant Spider,XMM,giant-spider,1,1.0,200,beast,,Large,Unaligned,14,26,4d10 + 4,30,0,0,0,30,0,14,16,12,2,11,4,14,60,0,0,0,,,,0,0,0,0,Spider Climb|Web Walker,Desert,359,1
+Giant Toad,XMM,giant-toad,1,1.0,200,beast,,Large,Unaligned,11,39,6d10 + 6,30,0,30,0,0,0,15,13,13,2,10,3,10,60,0,0,0,,,,0,0,0,0,Amphibious|Standing Leap,Coastal,360,1
+Giant Venomous Snake,XMM,giant-venomous-snake,1/4,0.25,50,beast,,Medium,Unaligned,14,11,2d8 + 2,40,0,40,0,0,0,10,18,13,2,10,3,12,0,10,0,0,,,,0,0,0,0,,Coastal,361,1
+Giant Vulture,XMM,giant-vulture,1,1.0,200,monstrosity,,Large,Neutral Evil,10,25,3d10 + 9,10,60,0,0,0,0,15,10,16,6,12,7,13,60,0,0,0,necrotic,,,0,0,0,0,Pack Tactics,Desert,361,1
+Giant Wasp,XMM,giant-wasp,1/2,0.5,100,beast,,Medium,Unaligned,13,22,5d8,10,50,0,0,0,0,10,14,10,1,10,3,10,0,0,0,0,,,,0,0,0,0,Flyby,Forest,361,1
+Giant Weasel,XMM,giant-weasel,1/8,0.125,25,beast,,Medium,Unaligned,13,9,2d8,40,0,0,0,30,0,11,17,10,4,12,5,13,60,0,0,0,,,,0,0,0,0,,Forest,361,1
+Giant Wolf Spider,XMM,giant-wolf-spider,1/4,0.25,50,beast,,Medium,Unaligned,13,11,2d8 + 2,40,0,0,0,40,0,12,16,13,3,12,4,13,60,10,0,0,,,,0,0,0,0,Spider Climb,Coastal,362,1
+Gibbering Mouther,XMM,gibbering-mouther,2,2.0,450,aberration,,Medium,Chaotic Neutral,9,52,7d8 + 21,20,0,20,0,0,0,10,8,16,3,10,6,10,60,0,0,0,,,prone,0,0,0,0,Aberrant Ground|Gibbering,Underdark,133,1
+Glabrezu,XMM,glabrezu,9,9.0,5000,fiend,demon,Large,Chaotic Evil,17,189,18d10 + 90,40,0,0,0,0,0,20,15,21,19,17,16,17,0,0,120,0,cold|fire|lightning,poison,poisoned,0,0,0,0,Demonic Restoration|Magic Resistance,Planar Abyss,138,1
+Gladiator,XMM,gladiator,5,5.0,1800,humanoid,,Small,Neutral,16,112,15d8 + 45,30,0,0,0,0,0,18,15,16,10,12,15,11,0,0,0,0,,,,0,0,0,0,,Any,139,1
+Gnoll Warrior,XMM,gnoll-warrior,1/2,0.5,100,fiend,,Medium,Chaotic Evil,15,27,6d8,30,0,0,0,0,0,14,12,11,6,10,7,10,60,0,0,0,,,,0,0,0,0,,Desert,140,1
+Goat,XMM,goat,0,0.0,10,beast,,Medium,Unaligned,10,4,1d8,40,0,0,0,30,0,11,10,11,2,10,5,12,60,0,0,0,,,,0,0,0,0,,Grassland,362,1
+Goblin Boss,XMM,goblin-boss,1,1.0,200,fey,goblinoid,Small,Chaotic Neutral,17,21,6d6,30,0,0,0,0,0,10,15,10,10,8,10,9,60,0,0,0,,,,0,0,0,0,,Forest,143,1
+Goblin Minion,XMM,goblin-minion,1/8,0.125,25,fey,goblinoid,Small,Chaotic Neutral,12,7,2d6,30,0,0,0,0,0,8,15,10,10,8,8,9,60,0,0,0,,,,0,0,0,0,,Forest,142,1
+Goblin Warrior,XMM,goblin-warrior,1/4,0.25,50,fey,goblinoid,Small,Chaotic Neutral,15,10,3d6,30,0,0,0,0,0,8,15,10,10,8,8,9,60,0,0,0,,,,0,0,0,0,,Forest,142,1
+Gold Dragon Wyrmling,XMM,gold-dragon-wyrmling,3,3.0,700,dragon,metallic,Medium,Lawful Good,17,60,8d8 + 24,30,60,30,0,0,0,19,14,17,14,11,16,14,60,10,0,0,,fire,,0,0,0,0,Amphibious,Forest,144,1
+Gorgon,XMM,gorgon,5,5.0,1800,construct,,Large,Unaligned,19,114,12d10 + 48,40,0,0,0,0,0,20,11,18,2,12,7,17,60,0,0,0,,,exhaustion|petrified,0,0,0,0,,Forest,148,1
+Gray Ooze,XMM,gray-ooze,1/2,0.5,100,ooze,,Medium,Unaligned,9,22,3d8 + 9,10,0,0,0,10,0,12,6,16,1,6,2,8,0,60,0,0,acid|cold|fire,,blinded|charmed|deafened|exhaustion|frightened|grappled|prone|restrained,0,0,0,0,Amorphous|Corrosive Form,Underdark,151,1
+Green Dragon Wyrmling,XMM,green-dragon-wyrmling,2,2.0,450,dragon,chromatic,Medium,Lawful Evil,17,38,7d8 + 7,30,60,30,0,0,0,15,12,13,14,11,13,14,60,10,0,0,,poison,poisoned,0,0,0,0,Amphibious,Forest,152,1
+Green Hag,XMM,green-hag,3,3.0,700,fey,,Medium,Neutral Evil,17,82,11d8 + 33,30,0,30,0,0,0,18,12,16,13,14,14,14,60,0,0,0,,,,0,0,0,0,Amphibious|Mimicry,Forest,156,1
+Grick,XMM,grick,2,2.0,450,aberration,,Medium,Unaligned,14,54,12d8,30,0,0,0,30,0,14,14,11,3,14,5,12,60,0,0,0,,,,0,0,0,0,,Forest,158,1
+Griffon,XMM,griffon,2,2.0,450,monstrosity,,Large,Unaligned,12,59,7d10 + 21,30,80,0,0,0,0,18,15,16,2,13,8,15,60,0,0,0,,,,0,0,0,0,,Arctic,159,1
+Grimlock,XMM,grimlock,1/4,0.25,50,aberration,,Medium,Neutral Evil,11,11,2d8 + 2,30,0,0,0,30,0,16,12,12,9,8,6,13,0,30,0,0,,,,0,0,0,0,,Underdark,160,1
+Guard,XMM,guard,1/8,0.125,25,humanoid,,Small,Neutral,16,11,2d8 + 2,30,0,0,0,0,0,13,12,12,10,11,10,12,0,0,0,0,,,,0,0,0,0,,Any,162,1
+Guard Captain,XMM,guard-captain,4,4.0,1100,humanoid,,Small,Neutral,18,75,10d8 + 30,30,0,0,0,0,0,18,14,16,12,14,13,14,0,0,0,0,,,,0,0,0,0,,Any,162,1
+Guardian Naga,XMM,guardian-naga,10,10.0,5900,celestial,,Large,Lawful Good,18,136,16d10 + 48,40,0,40,0,40,0,19,18,16,16,19,18,14,60,0,0,0,,poison,charmed|paralyzed|poisoned|restrained,0,0,0,0,Celestial Restoration,Desert,161,1
+Half-Dragon,XMM,half-dragon,5,5.0,1800,dragon,,Medium,Neutral,18,105,14d8 + 42,40,0,0,0,0,0,19,14,16,10,15,14,15,60,10,0,0,,,,0,0,0,0,Draconic Origin,Any,163,1
+Harpy,XMM,harpy,1,1.0,200,monstrosity,,Medium,Chaotic Evil,11,38,7d8 + 7,20,40,0,0,0,0,12,13,12,7,10,13,10,0,0,0,0,,,,0,0,0,0,,Coastal,164,1
+Hawk,XMM,hawk,0,0.0,10,beast,,Tiny,Unaligned,13,1,1d4 - 1,10,60,0,0,0,0,5,16,8,2,14,6,16,0,0,0,0,,,,0,0,0,0,,Arctic,362,1
+Hell Hound,XMM,hell-hound,3,3.0,700,fiend,,Medium,Lawful Evil,15,58,9d8 + 18,50,0,0,0,0,0,17,12,14,6,13,6,15,60,0,0,0,,fire,,0,0,0,0,Pack Tactics,Mountain,165,1
+Hezrou,XMM,hezrou,8,8.0,3900,fiend,demon,Large,Chaotic Evil,18,157,15d10 + 75,30,0,0,0,0,0,19,17,20,5,12,13,11,120,0,0,0,cold|fire|lightning,poison,poisoned,0,0,0,0,Demonic Restoration|Magic Resistance|Stench,Planar Abyss,167,1
+Hill Giant,XMM,hill-giant,5,5.0,1800,giant,,Huge,Chaotic Evil,13,105,10d12 + 40,40,0,0,0,0,0,21,8,19,5,9,6,12,0,0,0,0,,,,0,0,0,0,,Hill,168,1
+Hippogriff,XMM,hippogriff,1,1.0,200,monstrosity,,Large,Unaligned,11,26,4d10 + 4,40,60,0,0,0,0,17,13,13,2,12,8,15,0,0,0,0,,,,0,0,0,0,Flyby,Grassland,169,1
+Hippopotamus,XMM,hippopotamus,4,4.0,1100,beast,,Large,Unaligned,14,82,11d10 + 22,30,0,30,0,0,0,21,7,15,2,12,4,13,0,0,0,0,,,,0,0,0,0,Hold Breath,Forest,362,1
+Hobgoblin Captain,XMM,hobgoblin-captain,3,3.0,700,fey,goblinoid,Medium,Lawful Evil,17,58,9d8 + 18,30,0,0,0,0,0,15,14,14,12,10,13,10,60,0,0,0,,,,0,0,0,0,Aura of Authority,Desert,171,1
+Hobgoblin Warrior,XMM,hobgoblin-warrior,1/2,0.5,100,fey,goblinoid,Medium,Lawful Evil,18,11,2d8 + 2,30,0,0,0,0,0,13,12,12,10,10,9,10,60,0,0,0,,,,0,0,0,0,Pack Tactics,Desert,170,1
+Homunculus,XMM,homunculus,0,0.0,10,construct,,Tiny,Neutral,13,4,1d4 + 2,20,40,0,0,0,0,4,15,14,10,10,7,10,60,0,0,0,,poison,charmed|poisoned,0,0,0,0,Telepathic Bond,Any,172,1
+Horned Devil,XMM,horned-devil,11,11.0,7200,fiend,devil,Large,Lawful Evil,18,199,19d10 + 95,30,60,0,0,0,0,22,17,21,12,16,18,13,150,0,0,0,,fire|poison,poisoned,0,0,0,0,Diabolical Restoration|Magic Resistance,Planar Nine Hells,174,1
+Hunter Shark,XMM,hunter-shark,2,2.0,450,beast,,Large,Unaligned,12,45,6d10 + 12,5,0,40,0,0,0,18,14,15,1,10,4,12,0,60,0,0,,,,0,0,0,0,Water Breathing,Underwater,363,1
+Hydra,XMM,hydra,8,8.0,3900,monstrosity,,Huge,Unaligned,15,184,16d12 + 80,40,0,40,0,0,0,20,12,20,2,10,7,16,60,0,0,0,,,blinded|charmed|deafened|frightened|stunned|unconscious,0,0,0,0,Hold Breath|Multiple Heads|Reactive Heads,Coastal,175,1
+Hyena,XMM,hyena,0,0.0,10,beast,,Medium,Unaligned,11,5,1d8 + 1,50,0,0,0,0,0,11,13,12,2,12,5,13,60,0,0,0,,,,0,0,0,0,Pack Tactics,Desert,363,1
+Ice Devil,XMM,ice-devil,14,14.0,11500,fiend,devil,Large,Lawful Evil,18,228,24d10 + 96,40,0,0,0,0,0,21,14,18,18,15,18,17,0,120,0,0,,cold|fire|poison,poisoned,0,0,0,0,Diabolical Restoration|Magic Resistance,Planar Nine Hells,176,1
+Ice Mephit,XMM,ice-mephit,1/2,0.5,100,elemental,,Small,Neutral Evil,11,21,6d6,30,30,0,0,0,0,7,13,10,9,11,12,12,60,0,0,0,,cold|poison,exhaustion|poisoned,0,0,0,0,Death Burst,Planar Elemental,206,1
+Imp,XMM,imp,1,1.0,200,fiend,devil,Tiny,Lawful Evil,13,21,6d4 + 6,20,40,0,0,0,0,6,17,13,11,12,14,11,120,0,0,0,cold,fire|poison,poisoned,0,0,0,0,Magic Resistance,Any,177,1
+Incubus,XMM,incubus,4,4.0,1100,fiend,,Medium,Neutral Evil,15,66,12d8 + 12,30,60,0,0,0,0,8,17,13,15,12,20,15,60,0,0,0,cold|fire|poison|psychic,,,0,0,0,0,Succubus Form,Planar Lower,178,1
+Invisible Stalker,XMM,invisible-stalker,6,6.0,2300,elemental,,Large,Neutral,14,97,13d10 + 26,50,"{'number': 50, 'condition': '(hover)'}",0,0,0,0,16,19,14,10,15,11,18,60,0,0,0,bludgeoning|piercing|slashing,poison,exhaustion|grappled|paralyzed|petrified|poisoned|prone|restrained|unconscious,0,0,0,0,Air Form|Invisibility,Urban,180,1
+Iron Golem,XMM,iron-golem,16,16.0,15000,construct,,Large,Unaligned,20,252,24d10 + 120,30,0,0,0,0,0,24,9,20,3,11,1,10,120,0,0,0,,fire|poison|psychic,charmed|exhaustion|frightened|paralyzed|petrified|poisoned,0,0,0,0,Fire Absorption|Immutable Form|Magic Resistance,Any,181,1
+Jackal,XMM,jackal,0,0.0,10,beast,,Small,Unaligned,12,3,1d6,40,0,0,0,0,0,8,15,11,3,12,6,15,90,0,0,0,,,,0,0,0,0,,Desert,364,1
+Killer Whale,XMM,killer-whale,3,3.0,700,beast,,Huge,Unaligned,12,90,12d12 + 12,5,0,60,0,0,0,19,14,13,3,12,7,13,0,120,0,0,,,,0,0,0,0,Hold Breath,Underwater,364,1
+Knight,XMM,knight,3,3.0,700,humanoid,,Small,Neutral,18,52,8d8 + 16,30,0,0,0,0,0,16,11,14,11,11,15,10,0,0,0,0,,,frightened,0,0,0,0,,Any,184,1
+Kobold Warrior,XMM,kobold-warrior,1/8,0.125,25,dragon,,Small,Neutral,14,7,3d6 - 3,30,0,0,0,0,0,7,15,9,8,7,8,8,60,0,0,0,,,,0,0,0,0,Pack Tactics|Sunlight Sensitivity,Arctic,185,1
+Kraken,XMM,kraken,23,23.0,50000,monstrosity,titan,Gargantuan,Chaotic Evil,18,481,26d20 + 208,30,0,120,0,0,0,30,11,26,22,18,20,21,0,0,120,0,,cold|lightning,frightened|grappled|paralyzed|restrained,1,0,0,0,"Amphibious|Legendary Resistance (4/Day, or 5/Day in Lair)|Siege Monster",Underwater,187,1
+Lamia,XMM,lamia,4,4.0,1100,fiend,,Large,Chaotic Evil,13,97,13d10 + 26,40,0,0,0,0,0,16,13,15,14,15,16,12,60,0,0,0,,,,0,0,0,0,,Desert,192,1
+Lemure,XMM,lemure,0,0.0,10,fiend,devil,Medium,Lawful Evil,9,9,2d8,20,0,0,0,0,0,10,5,11,1,11,3,10,120,0,0,0,cold,fire|poison,charmed|frightened|poisoned,0,0,0,0,Hellish Restoration,Planar Nine Hells,194,1
+Lich,XMM,lich,21,21.0,33000,undead,wizard,Medium,Neutral Evil,20,315,42d8 + 126,30,0,0,0,0,0,11,16,16,21,14,16,19,0,0,120,0,cold|lightning,necrotic|poison,charmed|exhaustion|frightened|paralyzed|poisoned,1,0,0,0,"Legendary Resistance (4/Day, or 5/Day in Lair)|Spirit Jar",Any,196,1
+Lion,XMM,lion,1,1.0,200,beast,,Large,Unaligned,12,22,4d10,50,0,0,0,0,0,17,15,11,3,12,8,13,60,0,0,0,,,,0,0,0,0,Pack Tactics|Running Leap,Desert,364,1
+Lizard,XMM,lizard,0,0.0,10,beast,,Tiny,Unaligned,10,2,1d4,20,0,0,0,20,0,2,11,10,1,8,3,9,30,0,0,0,,,,0,0,0,0,Spider Climb,Coastal,364,1
+Mage,XMM,mage,6,6.0,2300,humanoid,wizard,Small,Neutral,15,81,18d8,30,0,0,0,0,0,9,14,11,17,12,11,14,0,0,0,0,,,,0,0,0,0,,Any,199,1
+Magma Mephit,XMM,magma-mephit,1/2,0.5,100,elemental,,Small,Neutral Evil,11,18,4d6 + 4,30,30,0,0,0,0,8,12,12,7,10,10,10,60,0,0,0,,fire|poison,exhaustion|poisoned,0,0,0,0,Death Burst,Planar Elemental,207,1
+Magmin,XMM,magmin,1/2,0.5,100,elemental,,Small,Chaotic Neutral,14,13,3d6 + 3,30,0,0,0,0,0,7,15,12,8,11,10,10,60,0,0,0,,fire,,0,0,0,0,Death Burst,Planar Fire,200,1
+Mammoth,XMM,mammoth,6,6.0,2300,beast,,Huge,Unaligned,13,126,11d12 + 55,50,0,0,0,0,0,24,9,21,3,11,6,10,0,0,0,0,,,,0,0,0,0,,Arctic,365,1
+Manticore,XMM,manticore,3,3.0,700,monstrosity,,Large,Lawful Evil,14,68,8d10 + 24,30,50,0,0,0,0,17,16,17,7,12,8,11,60,0,0,0,,,,0,0,0,0,,Arctic,202,1
+Marilith,XMM,marilith,16,16.0,15000,fiend,demon,Large,Chaotic Evil,16,220,21d10 + 105,40,0,0,0,40,0,18,20,20,18,16,20,18,0,0,120,0,cold|fire|lightning,poison,poisoned,0,0,0,0,Demonic Restoration|Magic Resistance|Reactive,Planar Abyss,204,1
+Mastiff,XMM,mastiff,1/8,0.125,25,beast,,Medium,Unaligned,12,5,1d8 + 1,40,0,0,0,0,0,13,14,12,3,12,7,15,60,0,0,0,,,,0,0,0,0,,Forest,365,1
+Medusa,XMM,medusa,6,6.0,2300,monstrosity,,Medium,Lawful Evil,15,127,17d8 + 51,30,0,0,0,0,0,10,17,16,12,13,15,14,150,0,0,0,,,,0,0,0,0,,Desert,205,1
+Merfolk Skirmisher,XMM,merfolk-skirmisher,1/8,0.125,25,elemental,,Medium,Neutral,11,11,2d8 + 2,10,0,40,0,0,0,10,13,12,11,14,12,12,0,0,0,0,,,,0,0,0,0,Amphibious,Coastal,209,1
+Merrow,XMM,merrow,2,2.0,450,monstrosity,,Large,Chaotic Evil,13,45,6d10 + 12,10,0,40,0,0,0,18,15,15,8,10,9,10,60,0,0,0,,,,0,0,0,0,Amphibious,Coastal,210,1
+Mimic,XMM,mimic,2,2.0,450,monstrosity,,Medium,Neutral,12,58,9d8 + 18,20,0,0,0,0,0,17,12,15,5,13,8,11,60,0,0,0,,acid,prone,0,0,0,0,Adhesive (Object Form Only),Underdark,212,1
+Minotaur Skeleton,XMM,minotaur-skeleton,2,2.0,450,undead,,Large,Lawful Evil,12,45,6d10 + 12,40,0,0,0,0,0,18,11,15,6,8,5,9,60,0,0,0,,poison,exhaustion|poisoned,0,0,0,0,,Planar Shadowfell,283,1
+Minotaur of Baphomet,XMM,minotaur-of-baphomet,3,3.0,700,monstrosity,,Large,Chaotic Evil,14,85,10d10 + 30,40,0,0,0,0,0,18,11,16,6,16,9,17,60,0,0,0,,,,0,0,0,0,,Underdark,215,1
+Mule,XMM,mule,1/8,0.125,25,beast,,Medium,Unaligned,10,11,2d8 + 2,40,0,0,0,0,0,14,10,13,2,10,5,10,0,0,0,0,,,,0,0,0,0,Beast of Burden,Desert,365,1
+Mummy,XMM,mummy,3,3.0,700,undead,,Small,Lawful Evil,11,58,9d8 + 18,20,0,0,0,0,0,16,8,15,6,12,12,11,60,0,0,0,,necrotic|poison,charmed|exhaustion|frightened|paralyzed|poisoned,0,0,0,0,,Desert,219,1
+Mummy Lord,XMM,mummy-lord,15,15.0,13000,undead,cleric,Small,Lawful Evil,17,187,25d8 + 75,30,0,0,0,0,0,18,10,17,11,19,16,19,0,0,60,0,,necrotic|poison,charmed|exhaustion|frightened|paralyzed|poisoned,1,0,0,0,"Legendary Resistance (3/Day, or 4/Day in Lair)|Magic Resistance|Undead Restoration",Desert,221,1
+Nalfeshnee,XMM,nalfeshnee,13,13.0,10000,fiend,demon,Large,Chaotic Evil,18,184,16d10 + 96,20,30,0,0,0,0,21,10,22,19,12,15,11,0,0,120,0,cold|fire|lightning,poison,frightened|poisoned,0,0,0,0,Demonic Restoration|Magic Resistance,Planar Abyss,224,1
+Night Hag,XMM,night-hag,5,5.0,1800,fiend,,Medium,Neutral Evil,17,112,15d8 + 45,30,0,0,0,0,0,18,15,16,16,14,16,15,120,0,0,0,cold|fire,,charmed,0,0,0,0,Magic Resistance|Soul Bag,Planar Lower,225,1
+Nightmare,XMM,nightmare,3,3.0,700,fiend,,Large,Neutral Evil,13,68,8d10 + 24,60,"{'number': 90, 'condition': '(hover)'}",0,0,0,0,18,15,16,10,13,15,11,0,0,0,0,,fire,,0,0,0,0,Confer Fire Resistance|Illumination,Planar Lower,226,1
+Noble,XMM,noble,1/8,0.125,25,humanoid,,Small,Neutral,15,9,2d8,30,0,0,0,0,0,11,12,11,12,14,16,12,0,0,0,0,,,,0,0,0,0,,Any,227,1
+Ochre Jelly,XMM,ochre-jelly,2,2.0,450,ooze,,Large,Unaligned,8,52,7d10 + 14,20,0,0,0,20,0,15,6,14,2,6,1,8,0,60,0,0,acid,lightning|slashing,charmed|deafened|exhaustion|frightened|grappled|prone|restrained,0,0,0,0,Amorphous|Spider Climb,Underdark,230,1
+Octopus,XMM,octopus,0,0.0,10,beast,,Small,Unaligned,12,3,1d6,5,0,30,0,0,0,4,15,11,3,10,4,12,30,0,0,0,,,,0,0,0,0,Compression|Water Breathing,Underwater,365,1
+Ogre,XMM,ogre,2,2.0,450,giant,,Large,Chaotic Evil,11,68,8d10 + 24,40,0,0,0,0,0,19,8,16,5,7,7,8,60,0,0,0,,,,0,0,0,0,,Arctic,231,1
+Ogre Zombie,XMM,ogre-zombie,2,2.0,450,undead,,Large,Neutral Evil,8,85,9d10 + 36,30,0,0,0,0,0,19,6,18,3,6,5,8,60,0,0,0,,poison,exhaustion|poisoned,0,0,0,0,Undead Fortitude,Planar Shadowfell,346,1
+Oni,XMM,oni,7,7.0,2900,fiend,,Large,Lawful Evil,17,119,14d10 + 42,30,"{'number': 30, 'condition': '(hover)'}",0,0,0,0,19,11,16,14,12,15,14,60,0,0,0,cold,,,0,0,0,0,Regeneration,Forest,232,1
+Otherworldly Steed,XPHB,otherworldly-steed,,,,"{'choose': ['celestial', 'fey', 'fiend']}",,Large,Neutral,,,,60,"{'number': 60, 'condition': '(requires level 4+ spell)'}",0,0,0,0,18,12,14,6,12,8,11,0,0,0,0,,,,0,0,0,0,Life Bond,,273,1
+Otyugh,XMM,otyugh,5,5.0,1800,aberration,,Large,Neutral,14,104,11d10 + 44,30,0,0,0,0,0,16,11,19,6,13,6,11,120,0,0,0,,,,0,0,0,0,,Underdark,233,1
+Owl,XMM,owl,0,0.0,10,beast,,Tiny,Unaligned,11,1,1d4 - 1,5,60,0,0,0,0,3,13,8,2,12,7,15,120,0,0,0,,,,0,0,0,0,Flyby,Arctic,366,1
+Owlbear,XMM,owlbear,3,3.0,700,monstrosity,,Large,Unaligned,13,59,7d10 + 21,40,0,0,0,40,0,20,12,17,3,12,7,15,60,0,0,0,,,,0,0,0,0,,Forest,234,1
+Panther,XMM,panther,1/4,0.25,50,beast,,Medium,Unaligned,13,13,3d8,50,0,0,0,40,0,14,16,10,3,14,7,14,60,0,0,0,,,,0,0,0,0,,Forest,366,1
+Pegasus,XMM,pegasus,2,2.0,450,celestial,,Large,Chaotic Good,12,59,7d10 + 21,60,90,0,0,0,0,18,15,16,10,15,13,16,0,0,0,0,,,,0,0,0,0,,Forest,235,1
+Phase Spider,XMM,phase-spider,3,3.0,700,monstrosity,,Large,Unaligned,14,45,7d10 + 7,30,0,0,0,30,0,15,16,12,6,10,6,10,60,0,0,0,,,,0,0,0,0,Ethereal Sight|Spider Climb|Web Walker,Desert,239,1
+Piranha,XMM,piranha,0,0.0,10,beast,,Tiny,Unaligned,13,1,1d4 - 1,5,0,40,0,0,0,2,16,9,1,7,2,8,60,0,0,0,,,,0,0,0,0,Water Breathing,Underwater,366,1
+Pirate,XMM,pirate,1,1.0,200,humanoid,,Small,Neutral,14,33,6d8 + 6,30,0,0,0,0,0,10,16,12,8,12,14,11,0,0,0,0,,,,0,0,0,0,,Any,241,1
+Pirate Captain,XMM,pirate-captain,6,6.0,2300,humanoid,,Small,Neutral,17,84,13d8 + 26,30,0,0,0,0,0,10,18,14,10,14,17,15,0,0,0,0,,,,0,0,0,0,,Any,242,1
+Pit Fiend,XMM,pit-fiend,20,20.0,25000,fiend,devil,Large,Lawful Evil,21,337,27d10 + 189,30,60,0,0,0,0,26,14,24,22,18,24,20,0,0,120,0,cold,fire|poison,poisoned,0,0,0,0,Diabolical Restoration|Fear Aura|Legendary Resistance (4/Day)|Magic Resistance,Planar Nine Hells,243,1
+Planetar,XMM,planetar,16,16.0,15000,celestial,angel,Large,Lawful Good,19,262,21d10 + 147,40,"{'number': 120, 'condition': '(hover)'}",0,0,0,0,24,20,24,19,22,25,21,0,0,120,0,radiant,,charmed|exhaustion|frightened,0,0,0,0,Divine Awareness|Exalted Restoration|Magic Resistance,Planar Upper,245,1
+Plesiosaurus,XMM,plesiosaurus,2,2.0,450,beast,dinosaur,Large,Unaligned,13,68,8d10 + 24,20,0,40,0,0,0,18,15,16,2,12,5,13,0,0,0,0,,,,0,0,0,0,Hold Breath,Arctic,366,1
+Polar Bear,XMM,polar-bear,2,2.0,450,beast,,Large,Unaligned,12,42,5d10 + 15,40,0,40,0,0,0,20,14,16,2,13,7,15,60,0,0,0,cold,,,0,0,0,0,,Arctic,367,1
+Pony,XMM,pony,1/8,0.125,25,beast,,Medium,Unaligned,10,11,2d8 + 2,40,0,0,0,0,0,15,10,13,2,11,7,10,0,0,0,0,,,,0,0,0,0,,Grassland,367,1
+Priest,XMM,priest,2,2.0,450,humanoid,cleric,Small,Neutral,13,38,7d8 + 7,30,0,0,0,0,0,16,10,12,13,16,13,15,0,0,0,0,,,,0,0,0,0,,Any,248,1
+Priest Acolyte,XMM,priest-acolyte,1/4,0.25,50,humanoid,cleric,Small,Neutral,13,11,2d8 + 2,30,0,0,0,0,0,14,10,12,10,14,11,12,0,0,0,0,,,,0,0,0,0,,Any,247,1
+Pseudodragon,XMM,pseudodragon,1/4,0.25,50,dragon,,Tiny,Neutral Good,14,10,3d4 + 3,15,60,0,0,0,0,6,15,13,10,12,10,15,60,10,0,0,,,,0,0,0,0,Magic Resistance,Coastal,249,1
+Psychic Gray Ooze,XMM,psychic-gray-ooze,1,1.0,200,ooze,,Medium,Unaligned,9,37,5d8 + 15,10,0,0,0,10,0,12,8,16,10,6,2,8,0,60,0,0,acid|cold|fire|psychic,,blinded|charmed|deafened|exhaustion|frightened|grappled|prone|restrained,0,0,0,0,Amorphous,Underdark,151,1
+Pteranodon,XMM,pteranodon,1/4,0.25,50,beast,dinosaur,Medium,Unaligned,13,13,3d8,10,60,0,0,0,0,12,15,10,2,9,5,11,0,0,0,0,,,,0,0,0,0,Flyby,Coastal,367,1
+Purple Worm,XMM,purple-worm,15,15.0,13000,monstrosity,,Gargantuan,Unaligned,18,247,15d20 + 90,50,0,0,50,0,0,28,7,22,1,8,4,9,0,30,0,60,,,,0,0,0,0,Tunneler,Desert,250,1
+Quasit,XMM,quasit,1,1.0,200,fiend,demon,Tiny,Chaotic Evil,13,25,10d4,40,0,0,0,0,0,5,17,10,7,10,10,10,120,0,0,0,cold|fire|lightning,poison,poisoned,0,0,0,0,Magic Resistance,Planar Abyss,252,1
+Rakshasa,XMM,rakshasa,13,13.0,10000,fiend,,Medium,Lawful Evil,17,221,26d8 + 104,40,0,0,0,0,0,14,17,18,13,16,20,18,0,0,60,0,,,charmed|frightened,0,0,0,0,Greater Magic Resistance|Fiendish Restoration,Planar Nine Hells,253,1
+Rat,XMM,rat,0,0.0,10,beast,,Tiny,Unaligned,10,1,1d4 - 1,20,0,0,0,20,0,2,11,9,2,10,4,12,30,0,0,0,,,,0,0,0,0,Agile,Forest,367,1
+Raven,XMM,raven,0,0.0,10,beast,,Tiny,Unaligned,12,2,1d4,10,50,0,0,0,0,2,14,10,5,13,6,13,0,0,0,0,,,,0,0,0,0,Mimicry,Hill,368,1
+Red Dragon Wyrmling,XMM,red-dragon-wyrmling,4,4.0,1100,dragon,chromatic,Medium,Chaotic Evil,17,75,10d8 + 30,30,60,0,0,30,0,19,10,17,12,11,15,14,60,10,0,0,,fire,,0,0,0,0,,Hill,254,1
+Reef Shark,XMM,reef-shark,1/2,0.5,100,beast,,Medium,Unaligned,12,22,4d8 + 4,5,0,30,0,0,0,14,15,13,1,10,4,12,0,30,0,0,,,,0,0,0,0,Pack Tactics|Water Breathing,Underwater,368,1
+Remorhaz,XMM,remorhaz,11,11.0,7200,monstrosity,,Huge,Unaligned,17,195,17d12 + 85,40,0,0,30,0,0,24,13,21,4,10,5,10,60,0,0,60,,cold|fire,,0,0,0,0,Heat Aura,Arctic,258,1
+Rhinoceros,XMM,rhinoceros,2,2.0,450,beast,,Large,Unaligned,13,45,6d10 + 12,40,0,0,0,0,0,21,8,15,2,12,6,11,0,0,0,0,,,,0,0,0,0,,Grassland,368,1
+Riding Horse,XMM,riding-horse,1/4,0.25,50,beast,,Large,Unaligned,11,13,2d10 + 2,60,0,0,0,0,0,16,13,12,2,11,7,10,0,0,0,0,,,,0,0,0,0,,Grassland,368,1
+Roc,XMM,roc,11,11.0,7200,monstrosity,,Gargantuan,Unaligned,15,248,16d20 + 80,20,120,0,0,0,0,28,10,20,3,10,9,18,0,0,0,0,,,,0,0,0,0,,Arctic,261,1
+Roper,XMM,roper,5,5.0,1800,aberration,,Large,Neutral Evil,20,93,11d10 + 33,10,0,0,0,20,0,18,8,17,7,16,6,16,60,0,0,0,,,,0,0,0,0,Spider Climb,Underdark,262,1
+Rust Monster,XMM,rust-monster,1/2,0.5,100,monstrosity,,Medium,Unaligned,14,33,6d8 + 6,40,0,0,0,0,0,13,12,13,2,13,6,11,60,0,0,0,,,,0,0,0,0,Iron Scent,Underdark,263,1
+Saber-Toothed Tiger,XMM,saber-toothed-tiger,2,2.0,450,beast,,Large,Unaligned,13,52,7d10 + 14,40,0,0,0,0,0,18,17,15,3,12,8,15,60,0,0,0,,,,0,0,0,0,Running Leap,Arctic,369,1
+Sahuagin Warrior,XMM,sahuagin-warrior,1/2,0.5,100,fiend,,Medium,Lawful Evil,12,22,4d8 + 4,30,0,40,0,0,0,13,11,12,12,13,9,15,120,0,0,0,acid|cold,,,0,0,0,0,Blood Frenzy|Limited Amphibiousness|Shark Telepathy,Coastal,264,1
+Salamander,XMM,salamander,5,5.0,1800,elemental,,Large,Neutral Evil,15,90,12d10 + 24,30,0,0,0,30,0,18,14,15,11,10,12,10,60,0,0,0,,fire,,0,0,0,0,Fire Aura,Planar Fire,267,1
+Satyr,XMM,satyr,1/2,0.5,100,fey,,Medium,Chaotic Neutral,13,31,7d8,40,0,0,0,0,0,12,16,11,12,10,14,12,0,0,0,0,,,,0,0,0,0,Magic Resistance,Forest,268,1
+Scorpion,XMM,scorpion,0,0.0,10,beast,,Tiny,Unaligned,11,1,1d4 - 1,10,0,0,0,0,0,2,11,8,1,8,2,9,0,10,0,0,,,,0,0,0,0,,Desert,369,1
+Scout,XMM,scout,1/2,0.5,100,humanoid,,Small,Neutral,13,16,3d8 + 3,30,0,0,0,0,0,11,14,12,11,13,11,15,0,0,0,0,,,,0,0,0,0,,Any,270,1
+Sea Hag,XMM,sea-hag,2,2.0,450,fey,,Medium,Chaotic Evil,14,52,7d8 + 21,30,0,40,0,0,0,16,13,16,12,12,13,11,60,0,0,0,,,,0,0,0,0,Amphibious|Vile Appearance,Coastal,271,1
+Seahorse,XMM,seahorse,0,0.0,10,beast,,Tiny,Unaligned,12,1,1d4 - 1,5,0,20,0,0,0,1,12,8,1,10,2,12,0,0,0,0,,,,0,0,0,0,Water Breathing,Underwater,369,1
+Shadow,XMM,shadow,1/2,0.5,100,undead,,Medium,Chaotic Evil,12,27,5d8 + 5,40,0,0,0,0,0,6,14,13,6,10,8,10,60,0,0,0,acid|cold|fire|lightning|thunder,necrotic|poison,exhaustion|frightened|grappled|paralyzed|petrified|poisoned|prone|restrained|unconscious,0,0,0,0,Amorphous|Sunlight Weakness,Planar Shadowfell,272,1
+Shambling Mound,XMM,shambling-mound,5,5.0,1800,plant,,Large,Unaligned,15,110,13d10 + 39,30,0,20,0,0,0,18,8,16,5,10,5,10,0,60,0,0,cold|fire,lightning,deafened|exhaustion,0,0,0,0,Lightning Absorption,Forest,276,1
+Shield Guardian,XMM,shield-guardian,7,7.0,2900,construct,,Large,Unaligned,17,142,15d10 + 60,30,0,0,0,0,0,18,8,18,7,10,3,10,60,10,0,0,,poison,charmed|exhaustion|frightened|paralyzed|petrified|poisoned,0,0,0,0,Bound|Regeneration|Spell Storing,Urban,277,1
+Shrieker Fungus,XMM,shrieker-fungus,0,0.0,10,plant,,Medium,Unaligned,5,13,3d8,5,0,0,0,0,0,1,1,10,1,3,1,6,0,30,0,0,,,blinded|charmed|deafened|frightened,0,0,0,0,,Underdark,125,1
+Silver Dragon Wyrmling,XMM,silver-dragon-wyrmling,2,2.0,450,dragon,metallic,Medium,Lawful Good,17,45,6d8 + 18,30,60,0,0,0,0,19,10,17,12,11,15,14,60,10,0,0,,cold,,0,0,0,0,,Mountain,278,1
+Skeleton,XMM,skeleton,1/4,0.25,50,undead,,Medium,Lawful Evil,14,13,2d8 + 4,30,0,0,0,0,0,10,16,15,6,8,5,9,60,0,0,0,,poison,exhaustion|poisoned,0,0,0,0,,Planar Shadowfell,282,1
+Solar,XMM,solar,21,21.0,33000,celestial,angel,Large,Lawful Good,21,297,22d10 + 176,50,"{'number': 150, 'condition': '(hover)'}",0,0,0,0,26,22,26,25,25,30,24,0,0,120,0,,poison|radiant,charmed|exhaustion|frightened|poisoned,1,0,0,0,Divine Awareness|Exalted Restoration|Legendary Resistance (4/Day)|Magic Resistance,Planar Upper,288,1
+Specter,XMM,specter,1,1.0,200,undead,,Medium,Chaotic Evil,12,22,5d8,30,"{'number': 50, 'condition': '(hover)'}",0,0,0,0,1,14,11,10,10,11,10,60,0,0,0,acid|bludgeoning|cold|fire|lightning|piercing|slashing|thunder,necrotic|poison,charmed|exhaustion|grappled|paralyzed|petrified|poisoned|prone|restrained|unconscious,0,0,0,0,Incorporeal Movement|Sunlight Sensitivity,Underdark,290,1
+Sphinx of Lore,XMM,sphinx-of-lore,11,11.0,7200,celestial,,Large,Lawful Neutral,17,170,20d10 + 60,40,60,0,0,0,0,18,15,16,18,18,18,18,0,0,120,0,necrotic|radiant,psychic,charmed|frightened,1,0,0,0,"Inscrutable|Legendary Resistance (3/Day, or 4/Day in Lair)",Desert,293,1
+Sphinx of Valor,XMM,sphinx-of-valor,17,17.0,18000,celestial,,Large,Lawful Neutral,17,199,19d10 + 95,40,60,0,0,0,0,22,10,20,16,23,18,22,0,0,120,0,necrotic|radiant,psychic,charmed|frightened,1,0,0,0,"Inscrutable|Legendary Resistance (3/Day, or 4/Day in Lair)",Desert,294,1
+Sphinx of Wonder,XMM,sphinx-of-wonder,1,1.0,200,celestial,,Tiny,Lawful Good,13,24,7d4 + 7,20,40,0,0,0,0,6,17,13,15,12,11,11,60,0,0,0,necrotic|psychic|radiant,,,0,0,0,0,Magic Resistance,Desert,291,1
+Spider,XMM,spider,0,0.0,10,beast,,Tiny,Unaligned,12,1,1d4 - 1,20,0,0,0,20,0,2,14,8,1,10,2,10,30,0,0,0,,,,0,0,0,0,Spider Climb|Web Walker,Desert,369,1
+Spirit Naga,XMM,spirit-naga,8,8.0,3900,fiend,,Large,Chaotic Evil,17,135,18d10 + 36,40,0,0,0,0,0,18,17,14,16,15,16,12,60,0,0,0,,poison,charmed|poisoned,0,0,0,0,Fiendish Restoration,Planar Lower,297,1
+Sprite,XMM,sprite,1/4,0.25,50,fey,,Tiny,Neutral Good,15,10,4d4,10,40,0,0,0,0,3,18,10,14,13,11,13,0,0,0,0,,,,0,0,0,0,,Forest,298,1
+Spy,XMM,spy,1,1.0,200,humanoid,,Small,Neutral,12,27,6d8,30,0,0,0,30,0,10,15,10,12,14,16,16,0,0,0,0,,,,0,0,0,0,,Any,295,1
+Steam Mephit,XMM,steam-mephit,1/4,0.25,50,elemental,,Small,Neutral Evil,10,17,5d6,30,30,0,0,0,0,5,11,10,11,10,12,10,60,0,0,0,,fire|poison,exhaustion|poisoned,0,0,0,0,Blurred Form|Death Burst,Planar Elemental,208,1
+Stirge,XMM,stirge,1/8,0.125,25,monstrosity,,Tiny,Unaligned,13,5,2d4,10,40,0,0,0,0,4,16,11,2,8,6,9,60,0,0,0,,,,0,0,0,0,,Desert,299,1
+Stone Giant,XMM,stone-giant,7,7.0,2900,giant,,Huge,Neutral,17,126,11d12 + 55,40,0,0,0,0,0,23,15,20,10,12,9,14,60,0,0,0,,,,0,0,0,0,,Mountain,300,1
+Stone Golem,XMM,stone-golem,10,10.0,5900,construct,,Large,Unaligned,18,220,21d10 + 105,30,0,0,0,0,0,22,9,20,3,11,1,10,120,0,0,0,,poison|psychic,charmed|exhaustion|frightened|paralyzed|petrified|poisoned,0,0,0,0,Immutable Form|Magic Resistance,Any,301,1
+Storm Giant,XMM,storm-giant,13,13.0,10000,giant,,Huge,Chaotic Good,16,230,20d12 + 100,50,"{'number': 25, 'condition': '(hover)'}",50,0,0,0,29,14,20,16,20,18,20,120,0,30,0,cold,lightning|thunder,,0,0,0,0,Amphibious,Coastal,302,1
+Succubus,XMM,succubus,4,4.0,1100,fiend,,Medium,Neutral Evil,15,71,13d8 + 13,30,60,0,0,0,0,8,17,13,15,12,20,15,60,0,0,0,cold|fire|poison|psychic,,,0,0,0,0,Incubus Form,Planar Lower,303,1
+Swarm of Bats,XMM,swarm-of-bats,1/4,0.25,50,beast,,Large,Unaligned,12,11,2d10,5,30,0,0,0,0,5,15,10,2,12,4,11,0,60,0,0,bludgeoning|piercing|slashing,,charmed|frightened|grappled|paralyzed|petrified|prone|restrained|stunned,0,0,0,0,Swarm,Forest,370,1
+Swarm of Crawling Claws,XMM,swarm-of-crawling-claws,3,3.0,700,undead,,Medium,Neutral Evil,12,49,11d8,30,0,0,0,30,0,14,14,11,5,10,4,10,0,30,0,0,bludgeoning|piercing|slashing,necrotic|poison,charmed|exhaustion|frightened|grappled|incapacitated|paralyzed|petrified|poisoned|prone|restrained|stunned,0,0,0,0,Swarm,Any,83,1
+Swarm of Insects,XMM,swarm-of-insects,1/2,0.5,100,beast,,Medium,Unaligned,11,19,3d8 + 6,20,0,0,0,0,0,3,13,14,1,7,1,8,0,30,0,0,bludgeoning|piercing|slashing,,charmed|frightened|grappled|paralyzed|petrified|prone|restrained|stunned,0,0,0,0,Spider Climb|Swarm,Desert,370,1
+Swarm of Piranhas,XMM,swarm-of-piranhas,1,1.0,200,beast,,Medium,Unaligned,13,28,8d8 - 8,5,0,40,0,0,0,13,16,9,1,7,2,8,60,0,0,0,bludgeoning|piercing|slashing,,charmed|frightened|grappled|paralyzed|petrified|prone|restrained|stunned,0,0,0,0,Swarm|Water Breathing,Underwater,370,1
+Swarm of Rats,XMM,swarm-of-rats,1/4,0.25,50,beast,,Medium,Unaligned,10,14,4d8 - 4,30,0,0,0,30,0,9,11,9,2,10,3,10,30,0,0,0,bludgeoning|piercing|slashing,,charmed|frightened|grappled|paralyzed|petrified|prone|restrained|stunned,0,0,0,0,Swarm,Forest,370,1
+Swarm of Ravens,XMM,swarm-of-ravens,1/4,0.25,50,beast,,Medium,Unaligned,12,11,2d8 + 2,10,50,0,0,0,0,6,14,12,5,12,6,15,0,0,0,0,bludgeoning|piercing|slashing,,charmed|frightened|grappled|paralyzed|petrified|prone|restrained|stunned,0,0,0,0,Swarm,Hill,371,1
+Swarm of Venomous Snakes,XMM,swarm-of-venomous-snakes,2,2.0,450,beast,,Medium,Unaligned,14,36,8d8,30,0,30,0,0,0,8,18,11,1,10,3,10,0,10,0,0,bludgeoning|piercing|slashing,,charmed|frightened|grappled|paralyzed|petrified|prone|restrained|stunned,0,0,0,0,Swarm,Coastal,371,1
+Tarrasque,XMM,tarrasque,30,30.0,155000,monstrosity,titan,Gargantuan,Unaligned,25,697,34d20 + 340,60,0,0,40,60,0,30,11,30,3,11,11,19,0,120,0,0,bludgeoning|piercing|slashing,fire|poison,charmed|deafened|frightened|paralyzed|poisoned,1,0,0,0,Legendary Resistance (6/Day)|Magic Resistance|Reflective Carapace|Siege Monster,Urban,305,1
+Tiger,XMM,tiger,1,1.0,200,beast,,Large,Unaligned,13,30,4d10 + 8,40,0,0,0,0,0,17,16,14,3,12,8,13,60,0,0,0,,,,0,0,0,0,,Forest,371,1
+Tough,XMM,tough,1/2,0.5,100,humanoid,,Small,Neutral,12,32,5d8 + 10,30,0,0,0,0,0,15,12,14,10,10,11,10,0,0,0,0,,,,0,0,0,0,Pack Tactics,Any,307,1
+Tough Boss,XMM,tough-boss,4,4.0,1100,humanoid,,Small,Neutral,16,82,11d8 + 33,30,0,0,0,0,0,17,14,16,11,10,11,10,0,0,0,0,,,,0,0,0,0,Pack Tactics,Any,307,1
+Treant,XMM,treant,9,9.0,5000,plant,,Huge,Chaotic Good,16,138,12d12 + 60,30,0,0,0,0,0,23,8,21,12,16,12,13,0,0,0,0,bludgeoning|piercing,,,0,0,0,0,Siege Monster,Forest,308,1
+Triceratops,XMM,triceratops,5,5.0,1800,beast,dinosaur,Huge,Unaligned,14,114,12d12 + 36,50,0,0,0,0,0,22,9,17,2,11,5,10,0,0,0,0,,,,0,0,0,0,,Grassland,372,1
+Troll,XMM,troll,5,5.0,1800,giant,,Large,Chaotic Evil,15,94,9d10 + 45,30,0,0,0,0,0,18,13,20,7,9,7,15,60,0,0,0,,,,0,0,0,0,Loathsome Limbs (4/Day)|Regeneration,Arctic,310,1
+Troll Limb,XMM,troll-limb,1/2,0.5,100,giant,,Small,Chaotic Evil,13,14,4d6,20,0,0,0,0,0,18,12,10,1,9,1,9,60,0,0,0,,,,0,0,0,0,Regeneration|Troll Spawn,Arctic,310,1
+Tyrannosaurus Rex,XMM,tyrannosaurus-rex,8,8.0,3900,beast,dinosaur,Huge,Unaligned,13,136,13d12 + 52,50,0,0,0,0,0,25,10,19,2,12,9,14,0,0,0,0,,,,0,0,0,0,,Grassland,372,1
+Unicorn,XMM,unicorn,5,5.0,1800,celestial,,Large,Lawful Good,12,97,13d10 + 26,50,0,0,0,0,0,18,14,15,11,17,16,13,60,0,0,0,,poison,charmed|paralyzed|poisoned,1,0,0,0,Legendary Resistance (3/Day)|Magic Resistance,Forest,313,1
+Vampire,XMM,vampire,13,13.0,10000,undead,,Small,Lawful Evil,16,195,23d8 + 92,40,0,0,0,40,0,18,18,18,17,15,18,17,120,0,0,0,necrotic,,,1,0,0,0,"Legendary Resistance (3/Day, or 4/Day in Lair)|Misty Escape|Spider Climb|Vampire Weakness",Underdark,317,1
+Vampire Familiar,XMM,vampire-familiar,3,3.0,700,humanoid,,Small,Neutral Evil,15,65,10d8 + 20,30,0,0,0,30,0,17,16,15,10,10,14,14,60,0,0,0,necrotic,,charmed,0,0,0,0,Vampiric Connection,Underdark,314,1
+Vampire Spawn,XMM,vampire-spawn,5,5.0,1800,undead,,Small,Neutral Evil,16,90,12d8 + 36,30,0,0,0,0,0,16,16,16,11,10,12,13,60,0,0,0,necrotic,,,0,0,0,0,Spider Climb|Vampire Weakness,Underdark,315,1
+Venomous Snake,XMM,venomous-snake,1/8,0.125,25,beast,,Tiny,Unaligned,12,5,2d4,30,0,30,0,0,0,2,15,11,1,10,3,10,0,10,0,0,,,,0,0,0,0,,Coastal,372,1
+Violet Fungus,XMM,violet-fungus,1/4,0.25,50,plant,,Medium,Unaligned,5,18,4d8,5,0,0,0,0,0,3,1,10,1,3,1,6,0,30,0,0,,,blinded|charmed|deafened|frightened,0,0,0,0,,Underdark,126,1
+Vrock,XMM,vrock,6,6.0,2300,fiend,demon,Large,Chaotic Evil,15,152,16d10 + 64,40,60,0,0,0,0,17,15,18,8,13,8,11,120,0,0,0,cold|fire|lightning,poison,poisoned,0,0,0,0,Demonic Restoration|Magic Resistance,Planar Abyss,319,1
+Vulture,XMM,vulture,0,0.0,10,beast,,Medium,Unaligned,10,5,1d8 + 1,10,50,0,0,0,0,7,10,13,2,12,4,13,0,0,0,0,,,,0,0,0,0,Pack Tactics,Desert,372,1
+Warhorse,XMM,warhorse,1/2,0.5,100,beast,,Large,Unaligned,11,19,3d10 + 3,60,0,0,0,0,0,18,12,13,2,12,7,11,0,0,0,0,,,,0,0,0,0,,Urban,373,1
+Warhorse Skeleton,XMM,warhorse-skeleton,1/2,0.5,100,undead,,Large,Lawful Evil,13,22,3d10 + 6,60,0,0,0,0,0,18,12,15,2,8,5,9,60,0,0,0,,poison,exhaustion|poisoned,0,0,0,0,,Planar Shadowfell,282,1
+Warrior Infantry,XMM,warrior-infantry,1/8,0.125,25,humanoid,,Small,Neutral,13,9,2d8,30,0,0,0,0,0,13,11,11,8,11,8,10,0,0,0,0,,,,0,0,0,0,Pack Tactics,Any,320,1
+Warrior Veteran,XMM,warrior-veteran,3,3.0,700,humanoid,,Small,Neutral,17,65,10d8 + 20,30,0,0,0,0,0,16,13,14,10,11,10,12,0,0,0,0,,,,0,0,0,0,,Any,320,1
+Water Elemental,XMM,water-elemental,5,5.0,1800,elemental,,Large,Neutral,14,114,12d10 + 48,30,0,90,0,0,0,18,14,18,5,10,8,10,60,0,0,0,acid|fire,poison,exhaustion|grappled|paralyzed|petrified|poisoned|prone|restrained|unconscious,0,0,0,0,Freeze|Water Form,Coastal,322,1
+Weasel,XMM,weasel,0,0.0,10,beast,,Tiny,Unaligned,13,1,1d4 - 1,30,0,0,0,30,0,3,16,8,2,12,3,13,60,0,0,0,,,,0,0,0,0,,Forest,372,1
+Werebear,XMM,werebear,5,5.0,1800,monstrosity,lycanthrope,Small,Neutral Good,15,135,18d8 + 54,30,0,0,0,"{'number': 30, 'condition': '(bear form only)'}",0,19,10,17,11,12,12,17,60,0,0,0,,,,0,0,0,0,,Arctic,324,1
+Wereboar,XMM,wereboar,4,4.0,1100,monstrosity,lycanthrope,Small,Neutral Evil,15,97,15d8 + 30,30,0,0,0,0,0,17,10,15,10,11,8,12,0,0,0,0,,,,0,0,0,0,,Forest,325,1
+Wererat,XMM,wererat,2,2.0,450,monstrosity,lycanthrope,Small,Lawful Evil,13,60,11d8 + 11,30,0,0,0,30,0,10,16,12,11,10,8,14,60,0,0,0,,,,0,0,0,0,,Forest,325,1
+Weretiger,XMM,weretiger,4,4.0,1100,monstrosity,lycanthrope,Small,Neutral,12,120,16d8 + 48,30,0,0,0,0,0,17,15,16,10,13,11,15,60,0,0,0,,,,0,0,0,0,,Desert,326,1
+Werewolf,XMM,werewolf,3,3.0,700,monstrosity,lycanthrope,Small,Chaotic Evil,15,71,11d8 + 22,30,0,0,0,0,0,16,14,14,10,11,10,14,60,0,0,0,,,,0,0,0,0,Pack Tactics,Forest,327,1
+White Dragon Wyrmling,XMM,white-dragon-wyrmling,2,2.0,450,dragon,chromatic,Medium,Chaotic Evil,16,32,5d8 + 10,30,60,30,15,0,0,14,10,14,5,10,11,14,60,10,0,0,,cold,,0,0,0,0,Ice Walk,Arctic,328,1
+Wight,XMM,wight,3,3.0,700,undead,,Medium,Neutral Evil,14,82,11d8 + 33,30,0,0,0,0,0,15,14,16,10,13,15,13,60,0,0,0,necrotic,poison,exhaustion|poisoned,0,0,0,0,Sunlight Sensitivity,Desert,332,1
+Will-o'-Wisp,XMM,will-o-wisp,2,2.0,450,undead,,Tiny,Chaotic Evil,19,27,11d4,5,"{'number': 50, 'condition': '(hover)'}",0,0,0,0,1,28,10,13,14,11,12,120,0,0,0,acid|bludgeoning|cold|fire|necrotic|piercing|slashing,lightning|poison,exhaustion|grappled|paralyzed|petrified|poisoned|prone|restrained|unconscious,0,0,0,0,Ephemeral|Illumination|Incorporeal Movement,Forest,333,1
+Winter Wolf,XMM,winter-wolf,3,3.0,700,monstrosity,,Large,Neutral Evil,13,75,10d10 + 20,50,0,0,0,0,0,18,13,14,7,12,8,15,0,0,0,0,,cold,,0,0,0,0,Pack Tactics,Arctic,334,1
+Wolf,XMM,wolf,1/4,0.25,50,beast,,Medium,Unaligned,12,11,2d8 + 2,40,0,0,0,0,0,14,15,12,3,12,6,15,60,0,0,0,,,,0,0,0,0,Pack Tactics,Forest,373,1
+Worg,XMM,worg,1/2,0.5,100,fey,,Large,Neutral Evil,13,26,4d10 + 4,50,0,0,0,0,0,16,13,13,7,11,8,14,60,0,0,0,,,,0,0,0,0,,Forest,335,1
+Wraith,XMM,wraith,5,5.0,1800,undead,,Small,Neutral Evil,13,67,9d8 + 27,5,"{'number': 60, 'condition': '(hover)'}",0,0,0,0,6,16,16,12,14,15,12,60,0,0,0,acid|bludgeoning|cold|fire|piercing|slashing,necrotic|poison,charmed|exhaustion|grappled|paralyzed|petrified|poisoned|prone|restrained|unconscious,0,0,0,0,Incorporeal Movement|Sunlight Sensitivity,Planar Shadowfell,336,1
+Wyvern,XMM,wyvern,6,6.0,2300,dragon,,Large,Unaligned,14,127,15d10 + 45,30,80,0,0,0,0,19,10,16,5,12,6,14,120,0,0,0,,,,0,0,0,0,,Hill,337,1
+Xorn,XMM,xorn,5,5.0,1800,elemental,,Medium,Neutral,19,84,8d8 + 48,20,0,0,20,0,0,17,10,22,11,10,11,16,60,0,0,60,,poison,paralyzed|petrified|poisoned,0,0,0,0,Earth Glide|Treasure Sense,Planar Earth,338,1
+Young Black Dragon,XMM,young-black-dragon,7,7.0,2900,dragon,chromatic,Large,Chaotic Evil,18,127,15d10 + 45,40,80,40,0,0,0,19,14,17,12,11,15,16,120,30,0,0,,acid,,0,0,0,0,Amphibious,Swamp,38,1
+Young Blue Dragon,XMM,young-blue-dragon,9,9.0,5000,dragon,chromatic,Large,Lawful Evil,18,152,16d10 + 64,40,80,0,20,0,0,21,10,19,14,13,17,19,120,30,0,0,,lightning,,0,0,0,0,,Coastal,48,1
+Young Brass Dragon,XMM,young-brass-dragon,6,6.0,2300,dragon,metallic,Large,Chaotic Good,17,110,13d10 + 39,40,80,0,20,0,0,19,10,17,12,11,15,16,120,30,0,0,,fire,,0,0,0,0,,Desert,54,1
+Young Bronze Dragon,XMM,young-bronze-dragon,8,8.0,3900,dragon,metallic,Large,Lawful Good,17,142,15d10 + 60,40,80,40,0,0,0,21,10,19,14,13,17,17,120,30,0,0,,lightning,,0,0,0,0,Amphibious,Coastal,58,1
+Young Copper Dragon,XMM,young-copper-dragon,7,7.0,2900,dragon,metallic,Large,Chaotic Good,17,119,14d10 + 42,40,80,0,0,40,0,19,12,17,16,13,15,17,120,30,0,0,,acid,,0,0,0,0,,Hill,78,1
+Young Gold Dragon,XMM,young-gold-dragon,10,10.0,5900,dragon,metallic,Large,Lawful Good,18,178,17d10 + 85,40,80,40,0,0,0,23,14,21,16,13,20,19,120,30,0,0,,fire,,0,0,0,0,Amphibious,Forest,144,1
+Young Green Dragon,XMM,young-green-dragon,8,8.0,3900,dragon,chromatic,Large,Lawful Evil,18,136,16d10 + 48,40,80,40,0,0,0,19,12,17,16,13,15,17,120,30,0,0,,poison,poisoned,0,0,0,0,Amphibious,Forest,152,1
+Young Red Dragon,XMM,young-red-dragon,10,10.0,5900,dragon,chromatic,Large,Chaotic Evil,18,178,17d10 + 85,40,80,0,0,40,0,23,10,21,14,11,19,18,120,30,0,0,,fire,,0,0,0,0,,Hill,254,1
+Young Silver Dragon,XMM,young-silver-dragon,9,9.0,5000,dragon,metallic,Large,Lawful Good,18,168,16d10 + 80,40,80,0,0,0,0,23,10,21,14,11,19,18,120,30,0,0,,cold,,0,0,0,0,,Mountain,278,1
+Young White Dragon,XMM,young-white-dragon,6,6.0,2300,dragon,chromatic,Large,Chaotic Evil,17,123,13d10 + 52,40,80,40,20,0,0,18,10,18,6,11,12,16,120,30,0,0,,cold,,0,0,0,0,Ice Walk,Arctic,328,1
+Zombie,XMM,zombie,1/4,0.25,50,undead,,Medium,Neutral Evil,8,15,2d8 + 6,20,0,0,0,0,0,13,6,16,3,6,5,8,60,0,0,0,,poison,exhaustion|poisoned,0,0,0,0,Undead Fortitude,Planar Shadowfell,346,1
