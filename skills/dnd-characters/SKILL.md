@@ -29,18 +29,66 @@ export DM_SKILLS_DIR=$(cd "<base-dir-from-above>/../../../.." && pwd)
 
 All paths resolve from: `$DM_SKILLS_DIR/reference/srd/`
 
-Read the relevant INDEX.md to find files and key metadata:
-- `classes/INDEX.md` — 12 classes with primary ability, hit die, saves, armor, SRD subclass
-- `classes/optional-features/INDEX.md` — 21 Eldritch Invocations + 8 Metamagic options with prerequisites
-- `feats/INDEX.md` — 17 feats grouped by category (origin, fighting style, general, epic boon) with prerequisites
-- `origins/INDEX.md` — 4 backgrounds (ability grants + origin feat) and 9 species (size, speed, key traits)
-- `character-creation/INDEX.md` — creation process, level advancement, multiclassing, and more
+### Classes
+`classes/<class>.md`
 
-**Note:** `feats/two-weapon-fighting.md` is the feat; `rules-glossary/rules-definitions/two-weapon-fighting.md`
-is the action — same slug, different content.
+| File | Primary Ability | SRD Subclass |
+|---|---|---|
+| `barbarian.md` | Str | Path of the Berserker |
+| `bard.md` | Cha | College of Lore |
+| `cleric.md` | Wis | Life Domain |
+| `druid.md` | Wis | Circle of the Land |
+| `fighter.md` | Str or Dex | Champion |
+| `monk.md` | Dex or Wis | Warrior of the Open Hand |
+| `paladin.md` | Str or Cha | Oath of Devotion |
+| `ranger.md` | Dex or Wis | Hunter |
+| `rogue.md` | Dex | Thief |
+| `sorcerer.md` | Cha | Draconic Sorcery |
+| `warlock.md` | Cha | Fiend Patron |
+| `wizard.md` | Int | Evoker |
 
-**SRD scope:** One subclass per class is included. If a requested subclass isn't in the file, say so
-and name the available one (see `classes/INDEX.md`).
+Each file contains: class table (all levels 1–20), starting equipment, multiclassing
+entry proficiencies, and the full text of every class feature.
+
+**SRD scope:** One subclass per class is included. If the requested subclass isn't in
+the file, say so and note which subclass is available (see SRD Subclass column above).
+
+### Backgrounds
+`origins/backgrounds/<name>.md`
+Files: `acolyte`, `criminal`, `sage`, `soldier`
+
+Structure overview (ability score grants, feat, skills, tool, equipment):
+`origins/README.md`
+
+### Species
+`origins/species/<name>.md`
+Files: `dragonborn`, `dwarf`, `elf`, `gnome`, `goliath`, `halfling`, `human`, `orc`, `tiefling`
+
+### Feats
+`feats/<feat-slug>.md`
+
+Origin feats (granted by backgrounds): `alert`, `magic-initiate`, `savage-attacker`, `skilled`
+Fighting Style feats: `archery`, `defense`, `great-weapon-fighting`, `two-weapon-fighting`
+  *(Note: `feats/two-weapon-fighting.md` is the feat; `rules-glossary/rules-definitions/two-weapon-fighting.md`
+  is the action — different files, same slug, different content)*
+General feats (Level 4+): `ability-score-improvement`, `grappler`
+Epic Boons (Level 19+): `boon-of-combat-prowess`, `boon-of-dimensional-travel`,
+  `boon-of-fate`, `boon-of-irresistible-offense`, `boon-of-spell-recall`,
+  `boon-of-the-night-spirit`, `boon-of-truesight`
+
+### Eldritch Invocations &amp; Metamagic
+`classes/optional-features/<slug>.md` — see `classes/optional-features/INDEX.md` for the full list with prerequisites and one-line descriptions.
+
+### Character Creation Process
+Step-by-step guide (choose class → origin → ability scores → alignment → fill details):
+`character-creation/create-your-character.md`
+
+Contains: standard array, point buy costs table, languages, starting HP by class,
+alignment descriptions, ability score tables, trinkets.
+
+Level advancement and tiers of play: `character-creation/level-advancement.md`
+Multiclassing rules (prerequisites, proficiencies, spell slots): `character-creation/multiclassing.md`
+Starting at higher levels: `character-creation/starting-at-higher-levels.md`
 
 ## Workflow
 
