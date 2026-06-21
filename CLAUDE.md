@@ -16,16 +16,12 @@ dm-skills/
 │   ├── dnd/
 │   │   ├── .claude-plugin/
 │   │   │   └── plugin.json    # dnd plugin manifest (name, version, skills path)
-│   │   └── skills/            # Symlinks → ../../skills/{dnd-monsters,dnd-spells,dnd-items,_shared}
+│   │   └── skills/            # Symlinks → ../../skills/{dnd-monsters,dnd-spells,dnd-items}
 │   └── eberron/
 │       ├── .claude-plugin/
 │       │   └── plugin.json    # eberron plugin manifest
-│       └── skills/            # Symlinks → ../../skills/{eberron-lore,_shared}
+│       └── skills/            # Symlinks → ../../skills/{eberron-lore}
 ├── skills/                    # Canonical skill source — used directly by symlink install (Option B)
-│   ├── _shared/references/    # Compact tables auto-loaded into every skill session
-│   │   ├── conditions.md      # All 15 conditions with mechanical summaries
-│   │   ├── damage-types.md    # All 13 damage types with resistance/immunity rules
-│   │   └── encounter-math.md  # XP thresholds, CR/XP table, encounter multipliers
 │   ├── dnd-items/SKILL.md
 │   ├── dnd-monsters/SKILL.md
 │   ├── dnd-spells/SKILL.md
@@ -149,7 +145,7 @@ The SRD legality audit is complete. Findings:
 `reference/srd/rules-glossary/rules-definitions/` by dedicated scripts:
 - **Conditions + statuses** (18 files) via `render-conditions.mjs` — blinded.md through
   unconscious.md plus bloodied.md, concentration.md, surprised.md (all XPHB srd52).
-  `skills/_shared/references/conditions.md` updated to 2024 mechanics throughout.
+  Condition glossary files confirmed against 2024 mechanics throughout.
 - **Game actions** (15 files) via `render-actions.mjs` — attack, dash, dodge, help,
   hide, ready, etc. (all XPHB srd52).
 - **Special senses** (4 files) via `render-senses.mjs` — blindsight, darkvision,
@@ -183,7 +179,4 @@ Skills live in `skills/` (plugin-canonical location). There is no `.claude/` dir
 in this repo — skills are consumed by users who symlink `skills/` into their campaign
 project's `.claude/skills/`.
 
-`skills/_shared/references/` contains small always-loaded tables (conditions,
-damage types, encounter math). These are ambient context for all skills, not on-demand
-reads. Keep them small — large content goes in `reference/srd/` and is read by
-skills explicitly.
+All skill content lives in `reference/srd/` and is read by skills explicitly on demand.

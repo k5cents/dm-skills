@@ -15,8 +15,6 @@ description: >
 # Rules Reference
 
 Always read the relevant SRD file before answering — don't rely on training data alone.
-The _shared/references/ tables (conditions, damage types, encounter math) are already
-in context and don't need to be re-read.
 
 ## Setup
 
@@ -27,13 +25,6 @@ export DM_SKILLS_DIR=$(cd "<base-dir-from-above>/../../../.." && pwd)
 ```
 
 ## Lookup Strategy
-
-**May already be in context:**
-- Condition and status effect mechanics (2024) → `_shared/references/conditions.md`
-- Damage types and resistance/immunity rules → `_shared/references/damage-types.md`
-
-If these tables are visible in context, use them directly. If not, read the file or the
-individual glossary entry (Step 1).
 
 **Step 1 — Named rules term?**
 Try `$DM_SKILLS_DIR/reference/srd/rules-glossary/rules-definitions/<kebab-term>.md`
