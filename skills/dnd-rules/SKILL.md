@@ -43,6 +43,9 @@ Glossary files use exact kebab-case: `difficult-terrain.md`, `long-jump.md`,
 
 Key glossary terms available:
 
+*Languages:*
+`rules-glossary/languages.md` — Standard Languages (d12 table) and Rare Languages (9 entries, planar or secret origins). Use for: what language does X speak, what are the rare/secret languages, does Primordial have dialects.
+
 *Rules (variantrules):*
 `ability-check`, `ability-score-and-modifier`, `action`, `advantage`, `area-of-effect`,
 `armor-class`, `armor-training`, `attack-roll`, `attunement`, `bonus-action`,
