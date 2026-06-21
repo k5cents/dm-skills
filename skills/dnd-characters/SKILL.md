@@ -1,11 +1,13 @@
 ---
 name: dnd-characters
 description: >
-  Look up 5e character creation content using SRD reference files. Invoke for:
-  class features at a given level, what a background or species gives, how a feat
-  works, what an Eldritch Invocation or Metamagic option does, how multiclassing
-  works, what the XP table looks like, point buy or standard array rules, starting
-  equipment, or building an NPC with class levels. Covers Chapter 2 (Creating a
+  Look up 5e character creation content using SRD reference files. Use this skill when
+  designing NPCs with class levels, answering player build questions, or verifying what
+  a character gains at a specific level — even if the answer seems obvious, read the file
+  to confirm 2024 mechanics. Invoke for: class features at a given level, what a background
+  or species gives, how a feat works, what an Eldritch Invocation or Metamagic option does,
+  how multiclassing works, what the XP table looks like, point buy or standard array rules,
+  starting equipment, or building an NPC with class levels. Covers Chapter 2 (Creating a
   Character) and all 12 SRD classes, 4 backgrounds, 9 species, and 17 feats.
   Not for spell descriptions (dnd-spells), item properties (dnd-items),
   monster stats (dnd-monsters), or general combat/rules (dnd-rules).
@@ -48,6 +50,10 @@ All paths resolve from: `$DM_SKILLS_DIR/reference/srd/`
 Each file contains: class table (all levels 1–20), starting equipment, multiclassing
 entry proficiencies, and the full text of every class feature.
 
+**SRD scope:** The SRD includes one subclass per class. If the requested subclass isn't
+in the file, say so and note which subclass is available (e.g., Champion for Fighter,
+Thief for Rogue, Life for Cleric).
+
 ### Backgrounds
 `origins/backgrounds/<name>.md`
 Files: `acolyte`, `criminal`, `sage`, `soldier`
@@ -64,6 +70,8 @@ Files: `dragonborn`, `dwarf`, `elf`, `gnome`, `goliath`, `halfling`, `human`, `o
 
 Origin feats (granted by backgrounds): `alert`, `magic-initiate`, `savage-attacker`, `skilled`
 Fighting Style feats: `archery`, `defense`, `great-weapon-fighting`, `two-weapon-fighting`
+  *(Note: `feats/two-weapon-fighting.md` is the feat; `rules-glossary/rules-definitions/two-weapon-fighting.md`
+  is the action — different files, same slug, different content)*
 General feats: `ability-score-improvement`, `grappler`
 Epic Boons (level 19+): `boon-of-combat-prowess`, `boon-of-dimensional-travel`,
   `boon-of-fate`, `boon-of-irresistible-offense`, `boon-of-spell-recall`,
@@ -113,6 +121,10 @@ use the headings (Step 1–5) to find the relevant section.
 
 **Building an NPC?** → read their class file for features, their species for traits,
 then consult dnd-spells or dnd-items for spell lists or gear as needed.
+
+**If the content isn't in the SRD reference files** (e.g., a non-SRD background, a
+subclass not listed in the class file, a species beyond the 9 available): say so clearly,
+answer from general 5e knowledge, and flag it as outside SRD 5.2.1.
 
 ## Output Format
 

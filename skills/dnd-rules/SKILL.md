@@ -1,12 +1,15 @@
 ---
 name: dnd-rules
 description: >
-  Answer 5e mechanical rules questions using SRD reference files. Invoke for: how does
-  X work, what happens in Y situation, which ability or skill is used for Z, what's the
-  DC for W, how far/fast/high/long can a character do something, what does a condition
-  do, how does cover/light/terrain affect play. Covers Chapter 1 (Playing the Game) and
-  Appendix C (Rules Glossary). Not for monster stats (dnd-monsters), spell descriptions
-  (dnd-spells), item properties (dnd-items), or character creation.
+  Answer 5e mechanical rules questions using SRD reference files. Use this skill whenever
+  a DM needs to resolve a rules question or recall a mechanic during play — even if the
+  answer seems obvious, read the file to confirm the 2024 rules (many changed from 2014).
+  Invoke for: how does X work, what happens in Y situation, which ability or skill is used
+  for Z, what's the DC for W, how far/fast/high/long can a character do something, what
+  does a condition do, how does cover/light/terrain affect play, resolving a rules dispute
+  at the table. Covers Chapter 1 (Playing the Game) and Appendix C (Rules Glossary).
+  Not for monster stats (dnd-monsters), spell descriptions (dnd-spells), item properties
+  (dnd-items), or character creation (dnd-characters).
 ---
 
 # Rules Reference
@@ -25,11 +28,12 @@ export DM_SKILLS_DIR=$(cd "<base-dir-from-above>/../../../.." && pwd)
 
 ## Lookup Strategy
 
-**Already in context — answer directly:**
+**May already be in context:**
 - Condition and status effect mechanics (2024) → `_shared/references/conditions.md`
 - Damage types and resistance/immunity rules → `_shared/references/damage-types.md`
 
-For full SRD text on a specific condition, read the individual glossary file (Step 1).
+If these tables are visible in context, use them directly. If not, read the file or the
+individual glossary entry (Step 1).
 
 **Step 1 — Named rules term?**
 Try `$DM_SKILLS_DIR/reference/srd/rules-glossary/rules-definitions/<kebab-term>.md`
@@ -89,6 +93,10 @@ All paths resolve from: `$DM_SKILLS_DIR/reference/srd/<path>`
 
 Some questions need two files — e.g., "how does hiding work in dim light" requires
 both `exploration.md` (hiding rules) and the glossary's `dim-light.md` or `lightly-obscured.md`.
+
+**If the topic isn't in any reference file:** answer from general 5e knowledge, flag that
+the rule isn't in the SRD reference files, and note whether it's likely a 2024 DMG rule
+(XDMG) or an optional/setting-specific rule not covered by SRD 5.2.1.
 
 ## Output Format
 

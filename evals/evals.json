@@ -1,0 +1,119 @@
+{
+  "skill_name": "dnd-rules / dnd-characters",
+  "evals": [
+    {
+      "id": 1,
+      "skill": "dnd-rules",
+      "prompt": "My party's rogue fell off a 60-foot cliff into a river. How much damage do they take, and does landing in water change anything?",
+      "expected_output": "Reads falling.md. States: 6d6 Bludgeoning (60 ft / 10 = 6 dice), max 20d6. Notes the water variant: Reaction + DC 15 Str(Athletics) or Dex(Acrobatics) check to halve damage. States they land Prone unless they avoid all damage.",
+      "assertions": [
+        "States 6d6 Bludgeoning damage for 60 feet",
+        "Mentions the DC 15 check to halve damage when falling into water",
+        "Mentions the Reaction to attempt the check",
+        "States the creature lands Prone unless all damage is avoided",
+        "Reads falling.md rather than answering from training data"
+      ]
+    },
+    {
+      "id": 2,
+      "skill": "dnd-rules",
+      "prompt": "Can a prone character make ranged attacks? What about melee?",
+      "expected_output": "Reads prone.md (or conditions.md ambient). For ranged: attack rolls have Disadvantage (from being prone). For melee: also Disadvantage on attack rolls. Notes that enemies attacking a prone character have Advantage if within 5 ft, Disadvantage otherwise.",
+      "assertions": [
+        "States prone creatures have Disadvantage on all attack rolls",
+        "Distinguishes the Advantage/Disadvantage rules for attackers based on distance",
+        "Does not say prone prevents ranged attacks outright (common misconception)"
+      ]
+    },
+    {
+      "id": 3,
+      "skill": "dnd-rules",
+      "prompt": "What skill does a character use to track enemies through a forest? What about recalling lore about the forest creatures they find?",
+      "expected_output": "Reads proficiency.md skills table. Tracking: Wisdom (Survival) — 'Follow tracks, forage, find a trail'. Recalling creature lore: Intelligence (Nature) — 'Recall lore about terrain, plants, animals'. May note DM can reassign abilities to skills in specific situations.",
+      "assertions": [
+        "Identifies Survival (Wisdom) for tracking",
+        "Identifies Nature (Intelligence) for creature lore",
+        "Cites the skills table from proficiency.md"
+      ]
+    },
+    {
+      "id": 4,
+      "skill": "dnd-rules",
+      "prompt": "The party is traveling at fast pace for 6 hours. How far do they go, and is there any downside?",
+      "expected_output": "Reads exploration.md Travel Pace table. Fast pace: 4 miles/hour × 6 = 24 miles. Penalty: Disadvantage on Wisdom (Perception or Survival) and Dexterity (Stealth) checks.",
+      "assertions": [
+        "States 24 miles for fast pace over 6 hours",
+        "States the Disadvantage on Perception/Survival and Stealth",
+        "Quotes or references the Travel Pace table"
+      ]
+    },
+    {
+      "id": 5,
+      "skill": "dnd-rules",
+      "prompt": "How does the Help action work when assisting an attack versus assisting a skill check?",
+      "expected_output": "Reads help.md. Two uses: (1) Assist ability check — choose a skill/tool prof, ally has Advantage on next check with it before your next turn; DM has final say on feasibility. (2) Assist attack — distract an enemy within 5 ft, one ally gets Advantage on next attack against that enemy before your next turn.",
+      "assertions": [
+        "Distinguishes the two uses of Help (ability check vs. attack roll)",
+        "States the 5-foot range requirement for assisting attacks",
+        "States the benefit expires at start of next turn",
+        "Reads help.md rather than answering from training data"
+      ]
+    },
+    {
+      "id": 6,
+      "skill": "dnd-characters",
+      "prompt": "My player's rogue just hit level 5. What new features do they get?",
+      "expected_output": "Reads classes/rogue.md. Level 5: Cunning Strike and Uncanny Dodge. Should include the mechanical descriptions of both features from the class table and feature text.",
+      "assertions": [
+        "Identifies the correct level 5 features for Rogue",
+        "Includes mechanical description of Uncanny Dodge",
+        "Reads rogue.md rather than answering from training data"
+      ]
+    },
+    {
+      "id": 7,
+      "skill": "dnd-characters",
+      "prompt": "I want to run a Dwarf NPC merchant. What ability score traits and racial features does a Dwarf have in the 2024 SRD?",
+      "expected_output": "Reads origins/species/dwarf.md. States the Dwarf's traits as rendered from the SRD — should include the species traits, ability score flexibility (background-derived in 2024), darkvision, resistances, etc.",
+      "assertions": [
+        "Reads dwarf.md from origins/species/",
+        "Lists Dwarf species traits accurately from the SRD file",
+        "Does not confuse 2014 and 2024 mechanics (e.g., 2024 dwarves don't have fixed +2 Con)"
+      ]
+    },
+    {
+      "id": 8,
+      "skill": "dnd-characters",
+      "prompt": "What does the Acolyte background give my character, and what feat does it come with?",
+      "expected_output": "Reads origins/backgrounds/acolyte.md. Gives: ability score options (Int, Wis, Cha), feat Magic Initiate (Cleric), skills Insight and Religion, tool Calligrapher's Supplies, equipment choice A or B.",
+      "assertions": [
+        "States Magic Initiate (Cleric) as the background feat",
+        "Lists Insight and Religion as skill proficiencies",
+        "Lists the ability score options correctly",
+        "Reads acolyte.md rather than answering from training data"
+      ]
+    },
+    {
+      "id": 9,
+      "skill": "dnd-characters",
+      "prompt": "My warlock player wants to take Thirsting Blade. What level do they need to be, and what does it do?",
+      "expected_output": "Reads classes/optional-features/thirsting-blade.md. Prerequisite: Warlock level 5. Effect: Extra Attack feature for pact weapon only — two attacks instead of one when taking the Attack action.",
+      "assertions": [
+        "States Warlock level 5 as prerequisite",
+        "Correctly describes the Extra Attack benefit for pact weapon only",
+        "Reads thirsting-blade.md and cites the prerequisite from the file"
+      ]
+    },
+    {
+      "id": 10,
+      "skill": "dnd-characters",
+      "prompt": "Can a Fighter multiclass into Wizard? What do they need and what do they gain?",
+      "expected_output": "Reads character-creation/multiclassing.md. Prerequisites: Fighter needs Int 13 to multiclass into Wizard, Str or Dex 13 to multiclass out. Gains: Wizard proficiencies for multiclassing (no armor from Wizard). Notes spell slots use multiclass spellcaster table.",
+      "assertions": [
+        "States Intelligence 13 as Wizard multiclass prerequisite",
+        "Reads multiclassing.md rather than answering from training data",
+        "Mentions proficiencies gained from Wizard multiclassing"
+      ]
+    }
+  ]
+}
