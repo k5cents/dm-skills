@@ -36,14 +36,24 @@ habitat, page
 
 ## Workflow
 
-**Step 1 — Filter with SQL:**
+If `$DM_SKILLS_DIR` is unset (`echo $DM_SKILLS_DIR` is blank), derive it from the
+"Base directory for this skill" path shown at the top of this context — go 4 levels up
+from `.../plugins/dnd/skills/dnd-monsters/`:
 ```sh
-python3 $DM_SKILLS_DIR/scripts/query.py monsters.db "SELECT ..."
+export DM_SKILLS_DIR=$(cd "<base-dir-from-above>/../../../.." && pwd)
+```
+
+**Step 1 — Filter with SQL:**
+
+Always include `slug` in your `SELECT` when you may follow up with a statblock read —
+it's the exact filename key and cannot be guessed from `name` or `source`:
+```sh
+python3 $DM_SKILLS_DIR/scripts/query.py monsters.db "SELECT name, slug, cr, ... FROM monsters WHERE ..."
 ```
 
 **Step 2 — Read the statblock:**
 Once you have candidates, read the full stat block for any monster you intend to use.
-Use the `slug` column from the DB to get the exact filename, then check paths in order:
+Use the `slug` value from the query result to construct the path, then check in order:
 
 1. `$DM_SKILLS_DIR/reference/srd/monsters/<slug>.md` — SRD monsters (always present)
 2. `$DM_SKILLS_DIR/statblocks/<slug>.md` — non-SRD monsters (locally built, may not exist)
@@ -55,7 +65,7 @@ a monster to the DM. CR, AC, and HP are in the DB; traits, actions, and lore are
 
 **Encounter by CR range and type (most common use):**
 ```sql
-SELECT name, cr, type, ac, hp, habitat, source
+SELECT name, slug, cr, type, ac, hp, habitat, source
 FROM monsters
 WHERE cr_num BETWEEN 2 AND 5
   AND type = 'construct'
@@ -64,7 +74,7 @@ ORDER BY cr_num, name;
 
 **Eberron-specific creatures:**
 ```sql
-SELECT name, cr, type, source, legendary
+SELECT name, slug, cr, type, source, legendary
 FROM monsters
 WHERE source IN ('ERLW', 'EFA', 'ExploringEberron24')
 ORDER BY cr_num;
@@ -72,7 +82,7 @@ ORDER BY cr_num;
 
 **Urban ambush candidates (Sharn / Cogs):**
 ```sql
-SELECT name, cr, type, ac, hp, darkvision, spellcasting
+SELECT name, slug, cr, type, ac, hp, darkvision, spellcasting
 FROM monsters
 WHERE habitat LIKE '%Urban%'
   AND cr_num BETWEEN 1 AND 6
@@ -81,7 +91,7 @@ ORDER BY cr_num, name;
 
 **Warforged / construct options:**
 ```sql
-SELECT name, cr, ac, hp, source, trait_names
+SELECT name, slug, cr, ac, hp, source, trait_names
 FROM monsters
 WHERE type = 'construct' OR subtype LIKE '%warforged%'
 ORDER BY cr_num;
@@ -89,7 +99,7 @@ ORDER BY cr_num;
 
 **Undead for the Mournland:**
 ```sql
-SELECT name, cr, type, subtype, ac, hp, legendary
+SELECT name, slug, cr, type, subtype, ac, hp, legendary
 FROM monsters
 WHERE type = 'undead'
   AND cr_num BETWEEN 3 AND 10
@@ -98,7 +108,7 @@ ORDER BY cr_num;
 
 **Legendary or mythic creatures for a boss encounter:**
 ```sql
-SELECT name, cr, type, ac, hp, lair, source
+SELECT name, slug, cr, type, ac, hp, lair, source
 FROM monsters
 WHERE (legendary = 1 OR mythic = 1)
   AND cr_num BETWEEN 8 AND 15
@@ -107,7 +117,7 @@ ORDER BY cr_num;
 
 **Spellcasting monsters for a rival mage scene:**
 ```sql
-SELECT name, cr, type, int, spellcasting, source
+SELECT name, slug, cr, type, int, spellcasting, source
 FROM monsters
 WHERE spellcasting = 1
   AND cr_num BETWEEN 3 AND 8

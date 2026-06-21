@@ -1,0 +1,15 @@
+{
+  "name": "eberron",
+  "displayName": "Eberron Lore",
+  "version": "0.1.0",
+  "description": "Eberron campaign setting — search sourcebook lore from ERLW, Exploring Eberron 2024, and Frontiers of Eberron",
+  "author": {
+    "name": "Kiernan Nicholls",
+    "email": "k5cents@gmail.com"
+  },
+  "homepage": "https://github.com/k5cents/dm-skills",
+  "repository": "https://github.com/k5cents/dm-skills",
+  "license": "MIT",
+  "keywords": ["eberron", "dnd", "5e", "tabletop", "rpg", "dungeon-master", "lore"],
+  "skills": "./skills/"
+}

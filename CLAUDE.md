@@ -11,8 +11,17 @@ install instructions; this file is for AI-assisted development of the repo itsel
 ```
 dm-skills/
 ├── .claude-plugin/
-│   └── marketplace.json       # Plugin groups: "dnd" (monsters/spells/items), "eberron"
-├── skills/                    # Plugin skills — canonical location
+│   └── marketplace.json       # Marketplace catalog: lists "dnd" and "eberron" plugins
+├── plugins/                   # Plugin install units (one per installable group)
+│   ├── dnd/
+│   │   ├── .claude-plugin/
+│   │   │   └── plugin.json    # dnd plugin manifest (name, version, skills path)
+│   │   └── skills/            # Symlinks → ../../skills/{dnd-monsters,dnd-spells,dnd-items,_shared}
+│   └── eberron/
+│       ├── .claude-plugin/
+│       │   └── plugin.json    # eberron plugin manifest
+│       └── skills/            # Symlinks → ../../skills/{eberron-lore,_shared}
+├── skills/                    # Canonical skill source — used directly by symlink install (Option B)
 │   ├── _shared/references/    # Compact tables auto-loaded into every skill session
 │   │   ├── conditions.md      # All 15 conditions with mechanical summaries
 │   │   ├── damage-types.md    # All 13 damage types with resistance/immunity rules
@@ -136,12 +145,25 @@ The SRD legality audit is complete. Findings:
 - Classes, spells, feats, equipment, origins, rules-glossary — all clean
 
 
-**Individual condition definitions missing:**
-`reference/srd/playing-the-game/conditions.md` lists all 15 conditions but
-doesn't contain their mechanical definitions (those are "in the rules glossary").
-The rules-glossary only has a `condition.md` that lists names. Individual condition
-files (blinded.md, charmed.md, etc.) were not rendered. The compact summary in
-`skills/_shared/references/conditions.md` fills this gap for now.
+**Glossary gaps now resolved** — the following are rendered to
+`reference/srd/rules-glossary/rules-definitions/` by dedicated scripts:
+- **Conditions + statuses** (18 files) via `render-conditions.mjs` — blinded.md through
+  unconscious.md plus bloodied.md, concentration.md, surprised.md (all XPHB srd52).
+  `skills/_shared/references/conditions.md` updated to 2024 mechanics throughout.
+- **Game actions** (15 files) via `render-actions.mjs` — attack, dash, dodge, help,
+  hide, ready, etc. (all XPHB srd52).
+- **Special senses** (4 files) via `render-senses.mjs` — blindsight, darkvision,
+  tremorsense, truesight (all XPHB srd52).
+- **Hazards** (5 files) via `render-hazards.mjs` — burning, dehydration, falling,
+  malnutrition, suffocation (XPHB; lack srd52 flag in 5etools but confirmed in PDF).
+
+**Still unrendered SRD52 content** (lower priority — not yet needed by any skill):
+- `trapshazards.json` [trap] — 8 SRD traps from XDMG (Collapsing Roof, Hidden Pit, etc.)
+  `gameplay-toolbox/traps.md` already lists names; individual files would add mechanics.
+- `items-base.json` [itemMastery] — 8 weapon mastery properties (all srd52)
+- `conditionsdiseases.json` [disease] — 3 XDMG diseases (Cackle Fever, Sewer Plague, Sight Rot)
+- `languages.json` [language] — 19 srd52 languages
+- `optionalfeatures.json` [optionalfeature] — 29 srd52 (fighting styles, invocations, etc.)
 
 ---
 

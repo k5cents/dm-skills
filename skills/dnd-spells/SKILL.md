@@ -37,6 +37,13 @@ For 5.5e campaigns, prefer XPHB over PHB (2024 supersedes 2014).
 
 ## Workflow
 
+If `$DM_SKILLS_DIR` is unset (`echo $DM_SKILLS_DIR` is blank), derive it from the
+"Base directory for this skill" path shown at the top of this context — go 4 levels up
+from `.../plugins/dnd/skills/dnd-spells/`:
+```sh
+export DM_SKILLS_DIR=$(cd "<base-dir-from-above>/../../../.." && pwd)
+```
+
 **Finding spells** — SQL filter query:
 ```sh
 python3 $DM_SKILLS_DIR/scripts/query.py spells.db "SELECT ..."

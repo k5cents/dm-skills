@@ -1,0 +1,15 @@
+{
+  "name": "dnd",
+  "displayName": "D&D 5e SRD",
+  "version": "0.1.0",
+  "description": "Core D&D 5e skills backed by SRD 5.2.1 content — query spells, magic items, and monster stat blocks; answer rules questions from Chapter 1 and the Rules Glossary",
+  "author": {
+    "name": "Kiernan Nicholls",
+    "email": "k5cents@gmail.com"
+  },
+  "homepage": "https://github.com/k5cents/dm-skills",
+  "repository": "https://github.com/k5cents/dm-skills",
+  "license": "MIT",
+  "keywords": ["dnd", "5e", "tabletop", "rpg", "dungeon-master", "spells", "monsters", "items", "rules"],
+  "skills": "./skills/"
+}

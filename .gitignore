@@ -3,6 +3,7 @@
 # and must NOT be committed to the public repo.
 databases/*.db
 databases/*.csv
+databases/*.md
 sourcebooks/
 statblocks/
 
